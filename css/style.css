@@ -1,0 +1,96 @@
+/*This is the main style sheet*/
+
+body{
+	min-height: 100%;
+  	padding-top: 5em;
+  	background: #080808;
+}
+
+.topics{
+	padding-top: 0px;
+}
+
+.jumbotron {
+	background: #827A65;
+	color:#FCEBC2;
+	font-family: 'Cantora One', sans-serif;
+	word-spacing: 2px;
+	border: 3px dashed #FCEBC2;
+}
+
+.jumbotron h1{
+	font-family: 'Vollkorn', serif;
+	font-weight: 400;
+}
+
+
+
+.main{
+	background: #FCEBC2;
+	color: #080808;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	/*padding-top: 20px;*/
+	padding-right: 20px;
+	font-family: 'Vollkorn', serif;
+	font-weight: 400;
+	border: 2px dashed #827A65;
+
+}
+
+em{
+	color:#080808;
+	font-size: 1.5em;
+}
+
+b{
+	color:#832020;
+/*	 -webkit-text-stroke: 2px #080808;
+*/	font-size: 1.3em;
+	letter-spacing: 10px;
+}
+
+
+.navbar{
+	background: #832020;
+	color:#808080;
+}
+
+.main h1{
+	font-family: 'Cantora One', sans-serif;
+	font-size: 2.5em;
+}
+
+h1.skills{
+	margin-top: .5em;
+	padding-bottom: 0px;
+}
+
+.contact{
+	border-radius: 10px;
+	background: #827A65;
+	color:#080808;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+}
+.contact h1{
+	color:#080808;
+}
+
+ul{
+	font-size: 1.4em;
+}
+
+p{
+	font-size: 1.4em;
+}
+
+/*Media Queries*/
+@media (max-width: 992px){
+	
+	.contact{
+		padding-top: 20px;
+		padding-bottom: 50px;
+	}
+}
