@@ -15,7 +15,7 @@ body{
 	color:#FCEBC2;
 	font-family: 'Cantora One', sans-serif;
 	word-spacing: 2px;
-	border: 3px dashed #FCEBC2;
+	border: 3px solid #FCEBC2;
 }
 
 .jumbotron h1{
@@ -52,10 +52,36 @@ b{
 }
 
 
-.navbar{
+.navbar-default{
 	background: #832020;
-	color:#808080;
+	border-bottom: #080808;
 }
+
+.navbar-default{
+	color:#FCEBC2;
+}
+
+.navbar-default .navbar-brand{
+	color:#FCEBC2;
+	font-size: 2em;
+}
+
+.navbar-default .navbar-brand:hover{
+	color:#FCEBC2;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:#FCEBC2;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus{
+	color:#832020;
+	background-color: #FCEBC2;
+	border-radius: 3px;
+}
+
+
 
 .main h1{
 	font-family: 'Cantora One', sans-serif;
@@ -69,13 +95,14 @@ h1.skills{
 
 .contact{
 	border-radius: 10px;
+	border: 2px solid #FCEBC2;
 	background: #827A65;
-	color:#080808;
+	color:#FCEBC2;
 	margin-bottom: 30px;
 	padding-bottom: 10px;
 }
 .contact h1{
-	color:#080808;
+	color:#FCEBC2;
 }
 
 ul{
