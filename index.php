@@ -1,4 +1,40 @@
-<!doctype html>
+<?php 
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = trim($_POST["name"]);
+    $email =  trim($_POST["email"]);
+    $message =  trim($_POST["message"]);
+    
+    if ($name == "" OR $email =="" OR $message == ""){
+      echo "You must specify a value for name, email address and message.";
+      exit;
+    }    
+
+
+    foreach ($_POST as $value) {
+      if (stripos($value, "Content-Type") !== FALSE) {
+        echo "There was a problem with the information that you entered.";
+
+        exit;
+      }
+    }
+
+    if($_POST["address"] != ""){
+      echo "Your form submission has an error.";
+      exit;
+    }
+
+    $email_body = "";
+    $email_body = $email_body . "Name: " . $name . "\n";
+    $email_body = $email_body . "Email: " . $email . "\n";
+    $email_body = $email_body . "Message: " . $message;
+
+    // TODO: Send Email
+
+    header("Location: index.php?status=thanks");
+    exit;
+}
+?>
 
 <html lang="en">
 <head>
@@ -90,28 +126,41 @@
         
         <div class = "row">
           <div class = "contact col-md-6 col-lg-6 col-sm-12 col-xs-12 ">
-             <h1 class = "page-header skills">Contact Me</h1>
+              <h1 class = "page-header skills">Contact Me</h1>
+              
+              <?php if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>
+                <p>Thanks for the email! I&rsquo;ll be in touch shortly!</p>
+              <?php } else { ?>
+
             <p class = "para">
               If you would like to hire me send me a message and I will send you my resume and we can discuss the opportunily
             </p>
-            <form role="form">
+            <form role="form" method="post" action="index.php">
               <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" class="form-control" id="name focusedInput" placeholder="Enter name">
+                <input type="text" class="form-control" id="name" id="focusedInput" name = "name" placeholder="Enter name">
                 
                 <label for="InputEmail">Email address</label>
-                <input type="email" class="form-control" id="InputEmail1 focusedInput" placeholder="Enter email">
+                <input type="email" class="form-control" id="InputEmail1 focusedInput" id = "email" name = "email" placeholder="Enter email">
               </div>
 
               <div class="form-group">
                 <label for="textarea">Message</label>
-                <textarea class="form-control" id="focusedInput" rows="3"></textarea>
-              
+                <textarea class="form-control" id="focusedInput" rows="3" id = "message" name = "message"></textarea>
+                <div style = "display:none;">
+                  <label for="address">Address</label>
+                  <input type="address" class="form-control" name = "address" id="address focusedInput" placeholder="Enter Address">
+                  <p>Humans leave this field blank.</p>
+                </div>
+              </div>
                 <button type="submit" class="btn btn-default pull-right">
                   Send
                 </button>
-              </div>
+              
             </form>
+
+            <?php } ?>
+          
           </div>
           
           <div class = " col-md-5 col-lg-5 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1 ">
