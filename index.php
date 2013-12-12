@@ -25,11 +25,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     $email_body = "";
-    $email_body = $email_body . "Name: " . $name . "\n";
-    $email_body = $email_body . "Email: " . $email . "\n";
+    $email_body = $email_body . "Name: " . $name . "<br>";
+    $email_body = $email_body . "Email: " . $email . "<br>";
     $email_body = $email_body . "Message: " . $message;
 
     // TODO: Send Email
+    $mail             = new PHPMailer(); // defaults to using php "mail()"
+
+    $body             = file_get_contents('contents.html');
+    $body             = preg_replace("/[\]/",'',$body);
+
+    $mail->SetFrom($email, $name);
+    $address = "dkn5678@gmail.com";
+    $mail->AddAddress($address, "John Doe");
+
+    $mail->Subject    = "Nikki Keller Web Design Content Form". $name;
+
+    $mail->MsgHTML($email_body);
+
+    if(!$mail->Send()) {
+      echo "Mailer Error: " . $mail->ErrorInfo;
+      exit;
+    } 
 
     header("Location: index.php?status=thanks");
     exit;

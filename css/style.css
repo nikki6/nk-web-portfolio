@@ -63,7 +63,10 @@ b{
 
 .navbar-default .navbar-brand{
 	color:#FCEBC2;
-	font-size: 2em;
+	/*font-size: 2em;*/
+	 border: 2px solid #827A65;
+	/* margin-top: 10px;
+	 margin-right: 10px;*/ 
 }
 
 .navbar-default .navbar-brand:hover{
@@ -79,6 +82,9 @@ b{
 	color:#832020;
 	background-color: #FCEBC2;
 	border-radius: 3px;
+}
+
+.navbar-nav {
 }
 
 
