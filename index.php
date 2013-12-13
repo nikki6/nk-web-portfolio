@@ -32,9 +32,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // TODO: Send Email
     $mail             = new PHPMailer(); // defaults to using php "mail()"
 
-    $body             = file_get_contents('contents.html');
-    $body             = preg_replace("/[\]/",'',$body);
-
     $mail->SetFrom($email, $name);
     $address = "dkn5678@gmail.com";
     $mail->AddAddress($address, "John Doe");
@@ -67,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-
+ 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
