@@ -23,7 +23,9 @@ body{
 	font-weight: 400;
 }
 
-
+.page-header{
+	border-bottom: 1px solid #080808;
+}
 
 .main{
 	background: #FCEBC2;
@@ -55,6 +57,7 @@ b{
 .navbar-default{
 	background: #832020;
 	border-bottom: #080808;
+	padding-top: 5px;
 }
 
 .navbar-default{

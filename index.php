@@ -24,24 +24,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       exit;
     }
 
+
     $email_body = "";
     $email_body = $email_body . "Name: " . $name . "<br>";
     $email_body = $email_body . "Email: " . $email . "<br>";
     $email_body = $email_body . "Message: " . $message;
 
     // TODO: Send Email
-    $mail             = new PHPMailer(); // defaults to using php "mail()"
+    require_once("inc/phpmailer/class.phpmailer.php");
+    $mail = new PHPMailer(); // defaults to using php "mail()"
 
     $mail->SetFrom($email, $name);
     $address = "dkn5678@gmail.com";
-    $mail->AddAddress($address, "John Doe");
+    $mail->AddAddress($address, "Nikki Keller");
 
     $mail->Subject    = "Nikki Keller Web Design Content Form". $name;
 
     $mail->MsgHTML($email_body);
 
     if(!$mail->Send()) {
-      echo "Mailer Error: " . $mail->ErrorInfo;
+      header("Location: index.php?status=error");
       exit;
     } 
 
@@ -105,7 +107,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
         <div class = "row">
           <p class = "col-md-12 col-lg-12 col-sm-12 col-xs-12">
-            I'm a 23 year old <em>computer scientist</em> whose <b>passion</b> is to create websites. 
+            I'm an experienced <em>computer scientist</em> whose <b>passion</b> is to create websites. 
           </p>
           
        </div>
@@ -144,6 +146,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
               
               <?php if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>
                 <p>Thanks for the email! I&rsquo;ll be in touch shortly!</p>
+              <?php }  else if(isset($_GET["status"]) AND $_GET["status"] == "error") { ?>
+                <p>
+                    Sorry it seems that we've encountered an error while sending your email. Please try again at a 
+                    later time or you can contact me at nkellerdesign@gmail.com.
+                </p>
               <?php } else { ?>
 
             <p class = "para">

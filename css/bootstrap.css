@@ -4540,7 +4540,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-nav > li > a {
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   line-height: 20px;
 }
 
