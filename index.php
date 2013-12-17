@@ -50,52 +50,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     header("Location: index.php?status=thanks");
     exit;
 }
+
+  include("inc/header.php");
 ?>
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>Nicole Keller Web Design</title>
-  <meta name="description" content="Nicole Keller Web Portfolio">
-  <meta name="author" content="Nicole Keller">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-<link href='http://fonts.googleapis.com/css?family=Cantora+One|Vollkorn:400,700' rel='stylesheet' type='text/css'>  <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
- 
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-</head>
-
-<body>
-
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <p class="navbar-brand" >NK</p>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class=""><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#">Examples</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
 
     <div class="container">
 
@@ -120,7 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
               I've been programming for the last 5 years with various different languages but I'm passoinate about creating websites. I really enjoy creating something that a user will be able to interact with over thier various media devices with ease. Currently I am on the east coast but I am relocating to San Diego as soon as I find a job. 
             </p>
           </div>
-          <div class = "main col-md-5 col-lg-5 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1 pull-right ">
+          <div class = "main skills col-md-5 col-lg-5 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1 pull-right ">
             <h1 class = "page-header ">The Skills</h1>
             <div class = "row">
               <ul class = "list col-md-4 col-lg-4 col-sm-6 col-xs-6 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
@@ -184,18 +142,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           
           </div>
           
-          <div class = " col-md-5 col-lg-5 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1 ">
-            <ul class ="list list-inline">
-              <li><a href="#">Twitter</a></li>
+          <div class = "social col-md-5 col-lg-5 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1 ">
+            <ul class ="list list-inline social">
+              <li><a href="#"><img  class = "socialMedia" src = "images/Twitter.png" alt = "Twitter"/></a></li>
               <li>
                 <a href="#">
-                  <!-- <object data="facebookYellow.svg" type="image/svg+xml">
-                    <img src="facebookYellow.png" />
-                  </object> -->
-                  Facebook
+                  <img class = "socialMedia"  src = "images/Facebook.png" alt = "Facebook"/>
                 </a>
               </li>
-              <li class="#"><a href="./">LinkedIn</a></li>
+              <li class="#"><a href="./"><img class = "socialMedia"  src = "images/LinkedIn.png" alt = "LinkedIn"/></a></li>
             </ul>
           </div>
       </div>

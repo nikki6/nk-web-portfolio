@@ -11,6 +11,7 @@ body{
 }
 
 .jumbotron {
+	margin-top: 25px;
 	background: #827A65;
 	color:#FCEBC2;
 	font-family: 'Cantora One', sans-serif;
@@ -40,6 +41,14 @@ body{
 	border: 2px dashed #827A65;
 
 }
+.social{
+	text-align: center;
+}
+.socialMedia{
+	width: 5.5em;
+	text-align: center;
+	vertical-align: center;
+} 
 
 em{
 	color:#080808;
@@ -123,10 +132,18 @@ p{
 }
 
 /*Media Queries*/
+@media (min-width: 993px){
+	.socialMedia{
+		/*padding-top: 200px;*/
+		float: bottom;
+	}
+}
 @media (max-width: 992px){
 	
 	.contact{
 		padding-top: 20px;
 		padding-bottom: 50px;
 	}
+
+
 }
