@@ -22,17 +22,18 @@
 
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
+      <div class="container navs">
         <div class="navbar-header">
+          <p class="navbar-brand" >Minnow Vs Shark</p>
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <p class="navbar-brand" >NK</p>
+          
         </div>
-        <div class="navbar-collapse collapse">
+        <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
             <li class=""><a href="index.php">Home</a></li>
             <li><a href="#about">About</a></li>
