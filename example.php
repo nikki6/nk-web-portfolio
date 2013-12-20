@@ -8,7 +8,7 @@
 			<div class = "row">
 				<div class = "example">
 					<div class = "col-lg-3 col-md-3 col-sm-4 col-xs-4 col-lg-offset-1 col-md-offset-1">
-						Example 1
+						<a href= "examples/onepage.html">Example 1</a>
 					</div>
 				</div>
 				<div class = "example">
