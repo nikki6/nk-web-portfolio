@@ -8,9 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-<link href='http://fonts.googleapis.com/css?family=Cantora+One|Vollkorn:400,700' rel='stylesheet' type='text/css'>  <link rel="stylesheet" type="text/css" href="css/reset.css">
+<link href='http://fonts.googleapis.com/css?family=Cantora+One|Vollkorn:400,700' rel='stylesheet' type='text/css'>  
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" type="text/css" href="css/fontStyleSheet.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
  
   <!--[if lt IE 9]>

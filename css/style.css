@@ -79,8 +79,9 @@ b{
 
 .navbar-default .navbar-brand{
 	color:#FCEBC2;
-	font-size: 2em;
-	border: 2px solid #827A65;
+	font-size: 3em;
+	letter-spacing: 5px;
+	font-family: 'lampa', sans-serif;
 }
 
 .navbar-default .navbar-brand:hover{
