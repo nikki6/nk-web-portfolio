@@ -17,13 +17,13 @@ body{
 .jumbotron {
 	background: #827A65;
 	color:#FCEBC2;
-	font-family: 'Cantora One', sans-serif;
+	font-family: 'bornregular', sans-serif;
 	word-spacing: 2px;
 	border: 3px solid #FCEBC2;
 }
 
 .jumbotron h1{
-	font-family: 'Vollkorn', serif;
+	font-family: 'pacificoregular', serif;
 	font-weight: 400;
 	font-size: 3em;
 }
@@ -40,7 +40,7 @@ body{
 	padding-bottom: 20px;
 	/*padding-top: 20px;*/
 	padding-right: 20px;
-	font-family: 'Vollkorn', serif;
+	font-family: 'bornregular', serif;
 	font-weight: 400;
 	border: 2px dashed #827A65;
 
@@ -79,9 +79,9 @@ b{
 
 .navbar-default .navbar-brand{
 	color:#FCEBC2;
-	font-size: 3em;
+	font-size: 160%;
 	letter-spacing: 5px;
-	font-family: 'lampa', sans-serif;
+	font-family: 'kabelregular', sans-serif;
 }
 
 .navbar-default .navbar-brand:hover{
@@ -109,8 +109,8 @@ b{
 
 
 .main h1{
-	font-family: 'Cantora One', sans-serif;
-	font-size: 2.5em;
+	font-family: 'pacificoregular', sans-serif;
+	font-size: 3em;
 }
 
 h1.skills{
@@ -120,6 +120,7 @@ h1.skills{
 
 .contact{
 	border-radius: 10px;
+	font-family: 'bornregular', serif;
 	border: 2px solid #FCEBC2;
 	background: #827A65;
 	color:#FCEBC2;
@@ -127,7 +128,15 @@ h1.skills{
 	padding-bottom: 10px;
 }
 .contact h1{
+	font-family: 'pacificoregular', sans-serif;
+	font-size: 3em;
+	padding-bottom: 10px;
 	color:#FCEBC2;
+}
+
+label{
+	padding-top: 5px;
+	font-size: 1.5em;
 }
 
 ul{
