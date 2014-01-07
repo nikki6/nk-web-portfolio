@@ -27,6 +27,29 @@ html,body{
 	padding-top: 15px;
 }
 
+.back{
+	font-size: 2em;
+	color:#6AC3CE;
+}
+
+.back:link, :active{
+	color:#6AC3CE;
+}
+
+.back:hover{
+	color:#9CC6C6;
+}
+
+.back:visited{
+	color:#E15E4F;
+}
+
+.info{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+
 /*Slides*/
 
 .slide{

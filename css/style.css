@@ -6,6 +6,10 @@ body{
   	background: #080808;
 }
 
+.logo{
+	font-weight: bolder;
+}
+
 .topics{
 	padding-top: 0px;
 }
@@ -147,9 +151,9 @@ p{
 	font-size: 1.4em;
 }
 
-.example{
+/*.example{
 	margin-right: 20px;
-}
+}*/
 
 /*Media Queries*/
 @media (min-width: 993px){
@@ -167,3 +171,27 @@ p{
 	
 
 }
+
+/*Start of the example page styles*/
+
+.examplepage{
+	
+	margin-top: 30px;
+	font-size: 20px;
+	color: #F2EDC3;
+}
+
+.ex{
+	height: 200px;
+	background-color: #761E19;
+}
+
+.exlink:link{
+	color: #D5BF9F;
+}
+
+
+.exlink:hover, :active{
+	color:#B6544E;
+}
+

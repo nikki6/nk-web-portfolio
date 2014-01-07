@@ -5,23 +5,44 @@
 ?>
 
 		<div class = "container">
-			<div class = "row">
-				<div class = "example">
-					<div class = "col-lg-3 col-md-3 col-sm-4 col-xs-4 col-lg-offset-1 col-md-offset-1">
-						<a href= "examples/onepage.html">Example 1</a>
-					</div>
-				</div>
-				<div class = "example">
-					<div class = "col-lg-3 col-md-3 col-sm-4 col-xs-4 col-lg-offset-1 col-md-offset-1">
-						Example 2
-					</div>
-				</div>
-				<div class = "example">
-					<div class = "col-lg-3 col-md-3 col-sm-4 col-xs-4 col-lg-offset-1 col-md-offset-1">
-						Example 3
-					</div>
-				</div>
+			<div class="row">
+			  <div class="col-sm-6 col-md-4">
+			    <div class="thumbnail">
+			      <img data-src="holder.js/300x200" alt="...">
+			      <div class="caption">
+			        <h3>Single Page Site</h3>
+			        <p>This site uses the parallax js </p>
+			        <p><a href="examples/onepage.html" class="btn btn-primary" role="button">Visit Site</a></p>
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="col-sm-6 col-md-4">
+			    <div class="thumbnail">
+			      <img data-src="holder.js/300x200" alt="...">
+			      <div class="caption">
+			        <h3>Blog Site</h3>
+			        <p>This site is an example of a blog</p>
+			        <p><a href="examples/blogPage/blog.php" class="btn btn-primary" role="button">Visit Site</a></p>
+			      </div>
+			    </div>
+			  </div>
+
+			  <div class="col-sm-6 col-md-4">
+			    <div class="thumbnail">
+			      <img data-src="holder.js/300x200" alt="...">
+			      <div class="caption">
+			        <h3>Frederick Women's Rugby Website</h3>
+			        <p>
+			        	I have been responsible for updating this site for the last 7 years. I've also been working on a 
+			        	new design for the site to make it cleaner looking. Stay tuned for the new sites design reveal.
+			        </p>
+			        <p><a href="examples/onepage.html" class="btn btn-primary" role="button">Visit Site</a></p>
+			      </div>
+			    </div>
+			  </div>
 			</div>
+
 		</div>
 	</body>
 </html>
