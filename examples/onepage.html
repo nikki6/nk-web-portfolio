@@ -23,11 +23,11 @@
 
 	<!-- Navigation Bar -->
 		 <!-- Fixed navbar -->
-		   <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-		      <div class="container navs">
-		        <div class="navbar-header">
+		  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	      <div class="container navs">
+	        <div class="navbar-header">
 		          <p class="navbar-brand" >One Page Example</p>
-		          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 		            <span class="sr-only">Toggle navigation</span>
 		            <span class="icon-bar"></span>
 		            <span class="icon-bar"></span>
@@ -36,14 +36,12 @@
 		          
 		        </div>
 		        <div class="navbar-collapse collapse">
-		          <ul class="navigation nav navbar-nav">
+		          <ul class="navigation nav navbar-nav pull-right">
 		            <li data-slide = "1">Slide 1</li>
 		            <li data-slide = "2">Slide 2</li>
 		            <li data-slide = "3">Slide 3</li>
 		            <li data-slide = "4">Slide 4</li>
-		          </ul>
-		          <ul class = "nav navbar-nav pull-right">
-		          	<li class = "back"><a href = "../example.php">Back</a></li>
+		          	<li><a href = "../example.php">Back</a></li>
 		          </ul>
 		        </div><!--/.nav-collapse -->
 		      </div>
@@ -62,13 +60,13 @@
 	<!-- Slide #2 -->
 		<div class = "slide" id = "slide2" data-slide = "2" data-stellar-background-ratio = "0.5">
 			<div class = "info">
-				<h1>Slide 2</h1>
+				<h1 data-stellar-background-ratio = "0.2">Slide 2</h1>
 				<h2>Single-origin coffee asymmetrical cliche.</h2>
 				<p>Put a bird on it hashtag synth fashion axe Truffaut, lo-fi cornhole Carles craft beer direct trade roof party leggings cardigan sriracha Terry Richardson. Flexitarian kitsch seitan locavore swag next level Shoreditch, fanny pack craft beer umami. Master cleanse mumblecore Brooklyn, craft beer selvage photo booth flexitarian. Flexitarian Banksy farm-to-table pug Helvetica, Godard aesthetic. </p>
 			</div>
 		</div>
 	<!-- Slide #3 -->
-		<div class = "slide" id = "slide3" data-slide = "3" data-stellar-background-ratio = "0.5">
+		<div class = "slide" id = "slide3" data-slide = "3" data-stellar-background-ratio = "0.3">
 			<div class = "info">
 				<h1>Slide 3</h1>
 				<h2>This website uses Parallax.</h2>
@@ -76,7 +74,7 @@
 			</div>
 		</div>
 	<!-- Slide #4 -->
-		<div class = "slide" id = "slide4" data-slide = "4" data-stellar-background-ratio = "0.5">
+		<div class = "slide" id = "slide4" data-slide = "4" data-stellar-background-ratio = ".5">
 			<div class = "info">
 				<h1>Slide 4</h1>
 				<p>This is the end of the example but it can go on and on and on.</p>
@@ -85,7 +83,11 @@
 		</div>
 
 		
-		
+	 <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>	
 	</body>
 
 </html>

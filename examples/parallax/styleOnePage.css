@@ -9,18 +9,18 @@ html,body{
 }
 .navigation li{
 	color:#333333;
-	padding: 0 30px;
+	padding: 0 10px;
 	line-height:30px;
 	margin-bottom:2px;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	-webkit-transition: all .2s ease-in-out;
 	text-align:center;
-	width:8em;
+	width:5em;
 }
 .navigation li:hover,.active{
-	font-weight: bold;
+	color: red;
 	cursor:pointer;
-	width:8em!important;
+	width:5em!important;
 }
 .navbar-brand{
 	font-size: 1.5em;
@@ -28,7 +28,6 @@ html,body{
 }
 
 .back{
-	font-size: 2em;
 	color:#6AC3CE;
 }
 
@@ -46,7 +45,12 @@ html,body{
 
 .info{
 	padding-left: 15%;
+	padding-top:15%;
 	padding-right: 15%;
+}
+
+a{
+	margin: -10px;
 }
 
 
