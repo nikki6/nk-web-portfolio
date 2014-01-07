@@ -100,7 +100,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         <div class = "row">
           <div class = "contact col-md-6 col-lg-6 col-sm-12 col-xs-12 ">
-              <h1 class = "page-header skills">Contact Me</h1>
+              <h1 id = "contact" class = "page-header skills">Contact Me</h1>
               
               <?php if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>
                 <p>Thanks for the email! I&rsquo;ll be in touch shortly!</p>

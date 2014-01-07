@@ -151,6 +151,10 @@ p{
 	font-size: 1.4em;
 }
 
+.navbar-toggle{
+	padding-bottom: 10px;
+}
+
 /*.example{
 	margin-right: 20px;
 }*/
