@@ -8,7 +8,10 @@
 			<div class="row">
 			  <div class="col-sm-6 col-md-4">
 			    <div class="thumbnail">
-			      <img data-src="holder.js/300x200" alt="...">
+			    	<div class ="box">
+			    		<img data-src="holder.js/300x200" alt="...">
+			    	</div>
+			      
 			      <div class="caption">
 			        <h3>Single Page Site</h3>
 			        <p>This site uses the parallax js </p>
@@ -19,7 +22,10 @@
 
 			  <div class="col-sm-6 col-md-4">
 			    <div class="thumbnail">
-			      <img data-src="holder.js/300x200" alt="...">
+			    	<div class ="box">
+			    		<img data-src="holder.js/300x200" alt="...">
+			    	</div>
+			      
 			      <div class="caption">
 			        <h3>Blog Site</h3>
 			        <p>This site is an example of a blog</p>
@@ -30,7 +36,10 @@
 
 			  <div class="col-sm-6 col-md-4">
 			    <div class="thumbnail">
-			      <img data-src="holder.js/300x200" alt="...">
+			    	<div class ="box">
+			    		<img data-src="holder.js/300x200" alt="...">
+			    	</div>
+			      
 			      <div class="caption">
 			        <h3>Frederick Women's Rugby Website</h3>
 			        <p>

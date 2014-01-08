@@ -1,0 +1,29 @@
+body{
+	background-color: #F2EDC3;
+}
+
+.navigation{
+	background-color: #E6D88D;
+	color:#5F7A84;
+}
+
+.banner h1{
+	text-align: center;
+	color:#E15E4F;
+}
+
+.subheader{
+	text-align: center;
+	color:#68878D;
+}
+
+.fotw{
+	border: solid 4px #B57B54;
+	color:#9CC6C6;
+
+}
+
+.candd{
+	border-radius: 30px;
+	border: solid 1px #D7942C;
+}

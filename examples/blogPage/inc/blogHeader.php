@@ -8,8 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/foundation.css">
+  <link rel="stylesheet" type="text/css" href="../..css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../../css/bootstrap-theme.css">
   <link rel="stylesheet" type="text/css" href="css/blogStyle.css">
 
 
@@ -21,21 +22,23 @@
 </head>
 
 <body>
-  <div class="off-canvas-wrap">
-  <div class="inner-wrap">
-    <nav class="tab-bar">
-      <section class="left-small">
-        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
-      </section>
-    </nav>
-    <aside class="left-off-canvas-menu">
-      <ul class="off-canvas-list">
-        <li><label>Foundation</label></li>
-        <li><a href="#">The Psychohistorians</a></li> 
-        <li><a href="#">The Psychohistorians</a></li>
-        <li><a href="#">The Psychohistorians</a></li>
-        <li><a href="../../example.php">Back</a></li>
-
-      </ul>
-    </aside>
-   
+  <div class="navigation navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container navs">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+        <div class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li class=""><a href="blog.php">Home</a></li>
+            <li><a href="#about">Recipe of the Week</a></li>
+            <li><a href="food.php">Pics of Food</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
