@@ -61,10 +61,10 @@
       <div class="jumbotron container">
         <img src="" class = "img-responsive row" alt = ""/>
         <div class = "row">
-          <h1 class = "col-md-12 col-lg-12 col-sm-12 col-xs-12">Hi I'm Nikki Keller,</h1>
+          <h1 class = "nk col-md-12 col-lg-12 col-sm-12 col-xs-12">Hi I'm Nikki Keller,</h1>
         </div>
         <div class = "row">
-          <p class = "col-md-12 col-lg-12 col-sm-12 col-xs-12">
+          <p id="in" class = "col-md-12 col-lg-12 col-sm-12 col-xs-12">
             I'm an experienced <em>computer scientist</em> whose <b>passion</b> is to create websites. 
           </p>
           
@@ -165,5 +165,12 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="js/jquery.fittext.js"></script>
+  <script>
+    jQuery(".nk").fitText(1.2, {minFontSize:'50px', maxFontSize: '80px'});
+    jQuery("#in").fitText(1.2, { minFontSize: '20px', maxFontSize: '30px' })
+    // jQuery("#in").fitText();
+  </script>
   </body>
 </html>
