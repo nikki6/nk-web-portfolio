@@ -14,7 +14,8 @@
 
       </div>
 
-        <div class = "sidebar col-md-2 col-md-push-9 col-lg-2 col-lg-push-9">
+        <div class = "sidebar col-md-2 col-md-push-10 col-lg-2 col-lg-push-9">
+          <h5>Archives</h5>
           <ul>
             <li>January 2014</li>
             <li>February 2014</li>
@@ -24,7 +25,7 @@
   		
         <div class = "row">
           <div class = "fotw">
-          <div class = "col-sm-12 col-md-10 col-md-pull-2 col-lg-10 col-lg-pull-2">
+          <div class = "col-sm-12 col-md-10  col-lg-10 col-lg-pull-2">
             <div class = "row">
               <div class = "head col-sm-12 col-md-10 col-lg-10 ">
                 <img class = "candd img-responsive" src="img/chickenAndDumplings.jpg">
@@ -85,7 +86,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>  
+    <script src="js/bootstrap.min.js"></script>  
   </div>
 
 </body>

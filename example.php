@@ -8,8 +8,8 @@
 			<div class="row">
 			  <div class="col-sm-6 col-md-4">
 			    <div class="thumbnail">
-			    	<div class ="box">
-			    		<img data-src="holder.js/300x200" alt="...">
+			    	<div class ="box box1">
+			    		<img class = "img-responsive" src="images/onePage.png" alt="...">
 			    	</div>
 			      
 			      <div class="caption">
@@ -22,8 +22,8 @@
 
 			  <div class="col-sm-6 col-md-4">
 			    <div class="thumbnail">
-			    	<div class ="box">
-			    		<img data-src="holder.js/300x200" alt="...">
+			    	<div class ="box box2">
+			    		<img class = "img-responsive" src="images/blogPage.png" alt="...">
 			    	</div>
 			      
 			      <div class="caption">
@@ -36,8 +36,8 @@
 
 			  <div class="col-sm-6 col-md-4">
 			    <div class="thumbnail">
-			    	<div class ="box">
-			    		<img data-src="holder.js/300x200" alt="...">
+			    	<div class ="box box3">
+			    		<img class = "img-responsive"src="images/fwrfcPage.png" alt="...">
 			    	</div>
 			      
 			      <div class="caption">
@@ -46,11 +46,25 @@
 			        	I have been responsible for updating this site for the last 7 years. I've also been working on a 
 			        	new design for the site to make it cleaner looking. Stay tuned for the new sites design reveal.
 			        </p>
-			        <p><a href="examples/onepage.html" class="btn btn-primary" role="button">Visit Site</a></p>
+			        <p><a href="http://www.frederickrugby.org/women/index.html" class="btn btn-primary" role="button">Visit Site</a></p>
 			      </div>
 			    </div>
 			  </div>
 			</div>
+			<div class="row">
+			  <div class="col-sm-6 col-md-4">
+			    <div class="thumbnail">
+			    	<div class ="box box4">
+			    		<img class = "img-responsive" src="images/exoticReef.png" alt="...">
+			    	</div>
+			      
+			      <div class="caption">
+			        <h3>E-commerce Site</h3>
+			        <p>This site I created for a client that wanted to sell coral. It uses Magento.</p>
+			        <p><a href="http://www.exoticreefcreations.com" class="btn btn-primary" role="button">Visit Site</a></p>
+			      </div>
+			    </div>
+			  </div>
 
 		</div>
 		 <!-- Bootstrap core JavaScript

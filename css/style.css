@@ -5,6 +5,69 @@ body{
   	padding-top: 5em;
   	background: #080808;
 }
+.navbar-default{
+	background: #832020;
+	border-bottom: #080808;
+	padding-top: 5px;
+}
+
+.navbar-default{
+	color:#FCEBC2;
+}
+
+.navbar-default .navbar-brand{
+	color:#FCEBC2;
+	font-size: 160%;
+	letter-spacing: 5px;
+}
+
+.navbar-default .navbar-brand:hover{
+	color:#FCEBC2;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:#FCEBC2;
+	font-size: 1em;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus{
+	color:#832020;
+	background-color: #FCEBC2;
+	border-radius: 3px;
+
+}
+
+.navbar-nav {
+}
+
+.navbar-toggle{
+	padding-bottom: 10px;
+}
+
+
+ul{
+	font-size: 1.4em;
+}
+
+p{
+	font-size: 1.4em;
+}
+
+em{
+	color:#080808;
+	font-size: 1.5em;
+}
+
+b{
+	color:#832020;
+/*	 -webkit-text-stroke: 2px #080808;
+*/	font-size: 1.3em;
+	letter-spacing: 10px;
+}
+
 
 .logo{
 	font-weight: bolder;
@@ -49,65 +112,7 @@ body{
 	border: 2px dashed #827A65;
 
 }
-.social{
-	text-align: center;
-}
-.socialMedia{
-	width: 5.5em;
-	text-align: center;
-	vertical-align: center;
-} 
 
-em{
-	color:#080808;
-	font-size: 1.5em;
-}
-
-b{
-	color:#832020;
-/*	 -webkit-text-stroke: 2px #080808;
-*/	font-size: 1.3em;
-	letter-spacing: 10px;
-}
-
-
-.navbar-default{
-	background: #832020;
-	border-bottom: #080808;
-	padding-top: 5px;
-}
-
-.navbar-default{
-	color:#FCEBC2;
-}
-
-.navbar-default .navbar-brand{
-	color:#FCEBC2;
-	font-size: 160%;
-	letter-spacing: 5px;
-}
-
-.navbar-default .navbar-brand:hover{
-	color:#FCEBC2;
-}
-
-.navbar-default .navbar-nav>li>a{
-	color:#FCEBC2;
-	font-size: 1em;
-	padding-top: 15px;
-	padding-bottom: 20px;
-}
-
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:focus{
-	color:#832020;
-	background-color: #FCEBC2;
-	border-radius: 3px;
-
-}
-
-.navbar-nav {
-}
 
 
 
@@ -120,6 +125,12 @@ h1.skills{
 	margin-top: .5em;
 	padding-bottom: 0px;
 }
+
+.list1{
+	margin-right: 10px;
+}
+
+
 
 .contact{
 	border-radius: 10px;
@@ -142,17 +153,22 @@ label{
 	font-size: 1.5em;
 }
 
-ul{
-	font-size: 1.4em;
-}
 
-p{
-	font-size: 1.4em;
-}
 
-.navbar-toggle{
-	padding-bottom: 10px;
+
+
+
+
+
+
+.social{
+	text-align: center;
 }
+.socialMedia{
+	width: 5.5em;
+	text-align: center;
+	vertical-align: center;
+} 
 
 /*.example{
 	margin-right: 20px;
@@ -171,9 +187,24 @@ p{
 		padding-top: 20px;
 		padding-bottom: 50px;
 	}
-	
-
 }
+
+@media(max-width: 400px){
+	.list1{
+		margin-right: 50px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*Start of the example page styles*/
 
@@ -199,15 +230,19 @@ p{
 }
 
 .box{
-	margin-top: 20px;
+	margin-top: 10px;
 	width:100%;
-	height:200px;
-	background-color: #B6544E;
 	border-radius: 5px;
 }
 
 .thumbnail{
+	border:0px;
 	background-color: #D5BF9F;
-	padding: 0px 10px;
+	padding: 20px 10px;
+}
+
+.box img{
+	border-radius: 5px;
+	border: 4px solid #827A65;
 }
 

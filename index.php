@@ -1,55 +1,55 @@
 <?php 
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = trim($_POST["name"]);
-    $email =  trim($_POST["email"]);
-    $message =  trim($_POST["message"]);
+// if ($_SERVER["REQUEST_METHOD"] == "POST") {
+//     $name = trim($_POST["name"]);
+//     $email =  trim($_POST["email"]);
+//     $message =  trim($_POST["message"]);
     
-    if ($name == "" OR $email =="" OR $message == ""){
-      echo "You must specify a value for name, email address and message.";
-      exit;
-    }    
+//     if ($name == "" OR $email =="" OR $message == ""){
+//       echo "You must specify a value for name, email address and message.";
+//       exit;
+//     }    
 
 
-    foreach ($_POST as $value) {
-      if (stripos($value, "Content-Type") !== FALSE) {
-        echo "There was a problem with the information that you entered.";
+//     foreach ($_POST as $value) {
+//       if (stripos($value, "Content-Type") !== FALSE) {
+//         echo "There was a problem with the information that you entered.";
 
-        exit;
-      }
-    }
+//         exit;
+//       }
+//     }
 
-    if($_POST["address"] != ""){
-      echo "Your form submission has an error.";
-      exit;
-    }
+//     if($_POST["address"] != ""){
+//       echo "Your form submission has an error.";
+//       exit;
+//     }
 
 
-    $email_body = "";
-    $email_body = $email_body . "Name: " . $name . "<br>";
-    $email_body = $email_body . "Email: " . $email . "<br>";
-    $email_body = $email_body . "Message: " . $message;
+//     $email_body = "";
+//     $email_body = $email_body . "Name: " . $name . "<br>";
+//     $email_body = $email_body . "Email: " . $email . "<br>";
+//     $email_body = $email_body . "Message: " . $message;
 
-    // TODO: Send Email
-    require_once("inc/phpmailer/class.phpmailer.php");
-    $mail = new PHPMailer(); // defaults to using php "mail()"
+//     // TODO: Send Email
+//     require_once("inc/phpmailer/class.phpmailer.php");
+//     $mail = new PHPMailer(); // defaults to using php "mail()"
 
-    $mail->SetFrom($email, $name);
-    $address = "dkn5678@gmail.com";
-    $mail->AddAddress($address, "Nikki Keller");
+//     $mail->SetFrom($email, $name);
+//     $address = "dkn5678@gmail.com";
+//     $mail->AddAddress($address, "Nikki Keller");
 
-    $mail->Subject    = "Nikki Keller Web Design Content Form". $name;
+//     $mail->Subject    = "Nikki Keller Web Design Content Form". $name;
 
-    $mail->MsgHTML($email_body);
+//     $mail->MsgHTML($email_body);
 
-    if(!$mail->Send()) {
-      header("Location: index.php?status=error");
-      exit;
-    } 
+//     if(!$mail->Send()) {
+//       header("Location: index.php?status=error");
+//       exit;
+//     } 
 
-    header("Location: index.php?status=thanks");
-    exit;
-}
+//     header("Location: index.php?status=thanks");
+//     exit;
+// }
 
   include("inc/header.php");
 ?>
@@ -76,18 +76,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <h1 class = "page-header">The Basics</h1>
             <p class = "para">
               I've been programming for the last 5 years with various different languages but I'm passoinate about creating websites. I really enjoy creating something that a user will be able to interact with over thier various media devices with ease. Currently I am on the east coast but I am relocating to San Diego as soon as I find a job. 
+              I have experience in creating both informational sites and e-commerce sites. 
             </p>
           </div>
           <div class = "main skills col-md-5 col-lg-5 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1 pull-right ">
             <h1 class = "page-header ">The Skills</h1>
             <div class = "row">
-              <ul class = "list col-md-4 col-lg-4 col-sm-6 col-xs-6 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+              <ul class = "list list1 col-md-4 col-lg-4 col-sm-5 col-xs-5 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
                 <li>HTML/HTML5</li>
                 <li>CSS/CSS3</li>
                 <li>JavaScript</li>
                 <li>PHP</li>
               </ul>
-              <ul class = " list col-md-2 col-lg-2 col-sm-5 col-xs-5 col-lg-offset-1 col-md-offset-1 ">
+              <ul class = "list list2 col-md-2 col-lg-2 col-sm-4 col-xs-4 col-lg-offset-1 col-md-offset-1 ">
                 <li>jQuery</li>
                 <li>Bootstrap</li>
                 <li>GIMP</li>
@@ -115,7 +116,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
               If you would like to hire me send me a message and I will send you my resume and we can discuss the opportunily
             </p>
             
-            <a href="mailto:dkn5678@gmail.com"><span class="glyphicon glyphicon-send" style = "width: 100px;"></span></a>
+            <a href="mailto:dkn5678@gmail.com"><span class="glyphicon glyphicon-send"></span></a>
             <!-- <form role="form" method="post" action="index.php">
               <div class="form-group">
                 <label for="name">Name</label>
@@ -146,13 +147,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           
           <div class = "social col-md-5 col-lg-5 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1 ">
             <ul class ="list list-inline social">
-              <li><a href="#"><img  class = "socialMedia" src = "images/Twitter.png" alt = "Twitter"/></a></li>
+              <li><a href="https://twitter.com/nkellerdesign"><img  class = "socialMedia" src = "images/Twitter.png" alt = "Twitter"/></a></li>
               <li>
                 <a href="#">
                   <img class = "socialMedia"  src = "images/Facebook.png" alt = "Facebook"/>
                 </a>
               </li>
-              <li class="#"><a href="./"><img class = "socialMedia"  src = "images/LinkedIn.png" alt = "LinkedIn"/></a></li>
+              <li class="http://www.linkedin.com/pub/nicole-keller/86/b72/108"><a href="./"><img class = "socialMedia"  src = "images/LinkedIn.png" alt = "LinkedIn"/></a></li>
             </ul>
           </div>
       </div>

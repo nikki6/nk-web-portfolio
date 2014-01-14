@@ -28,25 +28,26 @@ html,body{
 }
 
 .back{
-	color:#6AC3CE;
+	color:red;
 }
 
-.back:link, :active{
-	color:#6AC3CE;
+.back:link, .back:active{
+	color:white;
 }
 
 .back:hover{
-	color:#9CC6C6;
+	color:blue;
 }
 
 .back:visited{
-	color:#E15E4F;
+	color:black;
 }
 
 .info{
-	padding-left: 15%;
-	padding-top:15%;
-	padding-right: 15%;
+	margin-top:200px;
+	padding: 20px 50px;
+
+
 }
 
 a{
@@ -61,7 +62,7 @@ a{
 	width:100%;
 	height:100%;
 	position: relative;
-	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+	box-shadow:inset 0px -10px 10px rgba(0,0,0,0.3);
 	padding: 50px 20px;
 }
 
@@ -106,15 +107,29 @@ a{
 #slide1{
 	margin-top: 55px;
 	background-color:rgba(52, 73, 94,1.0);
-	color:rgba(52, 152, 219,1.0); 
+	color:rgba(236, 240, 241,1.0); 
 	
+}
+
+#slide1 .info{
+	margin: 200px 100px;
 }
 /******************************
  SLIDE 2 
 *******************************/
 #slide2{
-	background-image: url(images/blur09.jpg);
+	background-image: url(../../images/clearBackgrounds/barcelona-traffic.jpg);
 	
+}
+
+#slide2 .info{
+	background-color: rgba(236, 240, 241,.8);
+	border-radius: 20px;
+	border:dotted 4px rgba(127, 140, 141,.5);
+}
+
+#slide2, #slide2 h1{
+	color: rgba(44, 62, 80,1.0);
 }
 
 /******************************
@@ -147,7 +162,7 @@ a{
 /*media queries*/
 
 
-@media(max-width: 768px){
+/*@media(max-width: 768px){
 	.navbar-collapse{
 		background-color: #6B9BAF;
 	}
@@ -159,7 +174,7 @@ a{
 	.navigation li:hover {
 		background-color: #E9DFCB;
 	}
-}
+}*/
 
 
 
