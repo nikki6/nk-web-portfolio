@@ -101,7 +101,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class = "row">
           <div class = "contact col-md-6 col-lg-6 col-sm-12 col-xs-12 ">
               <h1 id = "contact" class = "page-header skills">Contact Me</h1>
-              
+             <!--  
               <?php if (isset($_GET["status"]) AND $_GET["status"] == "thanks") { ?>
                 <p>Thanks for the email! I&rsquo;ll be in touch shortly!</p>
               <?php }  else if(isset($_GET["status"]) AND $_GET["status"] == "error") { ?>
@@ -110,11 +110,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     later time or you can contact me at nkellerdesign@gmail.com.
                 </p>
               <?php } else { ?>
-
+ -->
             <p class = "para">
               If you would like to hire me send me a message and I will send you my resume and we can discuss the opportunily
             </p>
-            <form role="form" method="post" action="index.php">
+            
+            <a href="mailto:dkn5678@gmail.com"><span class="glyphicon glyphicon-send" style = "width: 100px;"></span></a>
+            <!-- <form role="form" method="post" action="index.php">
               <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" class="form-control" id="name" id="focusedInput" name = "name" placeholder="Enter name">
@@ -138,7 +140,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
               
             </form>
 
-            <?php } ?>
+            <?php } ?> -->
           
           </div>
           

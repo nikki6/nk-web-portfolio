@@ -1,5 +1,9 @@
 body{
 	background-color: #F2EDC3;
+	font-family: 'bornregular', serif;
+	font-size: 10px;
+	color:#4b6169;
+
 }
 
 .navigation{
@@ -7,23 +11,98 @@ body{
 	color:#5F7A84;
 }
 
+.banner{
+	margin-top: 60px;
+}
+
 .banner h1{
 	text-align: center;
+	font-size: 6em;
+	font-family: 'pacificoregular', serif;
 	color:#E15E4F;
 }
 
+h2, h4{
+	font-family: 'bornregular', serif;
+	font-size: 4em;
+}
+
+h3{
+	font-family: 'bornregular', serif;
+	font-size: 2em;
+}
+
+
+
 .subheader{
 	text-align: center;
-	color:#68878D;
+	font-family: 'bornregular', serif;
+	color:#4b6169;
 }
 
 .fotw{
-	border: solid 4px #B57B54;
-	color:#9CC6C6;
 
+	padding: 20px 30px;
+	color:#4b6169;
+
+}
+.head{
+	text-align: center;
+}
+
+.head h2{
+	font-size: 4em;
+	border-bottom: solid 1px #4b6169;
+}
+
+li{
+	font-size: 2em;
+}
+
+.instruc{
+	border-left: solid 1px #7E949C;
 }
 
 .candd{
 	border-radius: 30px;
-	border: solid 1px #D7942C;
+	border: solid 2px #D7942C;
+	width: 300px;
+}
+
+.about{
+	border-top: 3px dashed #7E949C;
+	margin-top: 20px;
+	font-size: 2em;
+}
+.img{
+	padding-top: 20px;	
+	margin-top: 20px;
+	border-top: 3px dashed #7E949C;
+}
+
+.img img{
+	border-radius: 30px;
+	border: solid 2px #D7942C;
+
+}
+
+@media (min-width: 750px){
+	.candd{
+		margin-left: 30%;
+	}
+
+	.sidebar{
+		display: none;
+	}
+
+	.instruc{
+		border-left: 0px solid white;
+		border-top: solid 1px #7E949C;
+	}
+
+	.img img{
+		margin-right: 10px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
 }

@@ -8,16 +8,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <link rel="stylesheet" type="text/css" href="../..css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../../css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="../../css/bootstrap-theme.css">
+  <link rel="stylesheet" type="text/css" href="../../css/fontStyleSheet.css">
   <link rel="stylesheet" type="text/css" href="css/blogStyle.css">
 
 
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-    <script src="js/vendor/modernizr.js"></script>
 
 </head>
 

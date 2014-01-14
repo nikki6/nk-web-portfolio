@@ -26,7 +26,7 @@
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container navs">
         <div class="navbar-header">
-          <p class="navbar-brand logo" ><!-- <img class = "logo" src="images/minnowvsShark1.png"> -->Minnow Vs Shark</p>
+          <p class="navbar-brand logo" ><!-- <img class = "logo" src="images/minnowvsShark1.png"> -->NK</p>
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
