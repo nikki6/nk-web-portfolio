@@ -37,7 +37,7 @@
 			  <div class="col-sm-6 col-md-4">
 			    <div class="thumbnail">
 			    	<div class ="box box3">
-			    		<img class = "img-responsive"src="images/fwrfcPage.png" alt="...">
+			    		<img class = "img-responsive" src="images/fwrfcPage.png" alt="...">
 			    	</div>
 			      
 			      <div class="caption">
@@ -67,6 +67,7 @@
 			  </div>
 
 		</div>
+	</div>
 		 <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

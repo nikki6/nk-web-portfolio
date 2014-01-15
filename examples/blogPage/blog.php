@@ -28,7 +28,7 @@
           <div class = "col-sm-12 col-md-10  col-lg-10 col-lg-pull-2">
             <div class = "row">
               <div class = "head col-sm-12 col-md-10 col-lg-10 ">
-                <img class = "candd img-responsive" src="img/chickenAndDumplings.jpg">
+                <img class = "candd img-responsive" src="img/chickenAndDumplings.jpg" alt = "ChickennDumplings">
           			<h2>Chicken and Dumplings</h2>
               </div>
             </div>
@@ -73,7 +73,7 @@
           </p>
         </div>
         <div class = "img col-sm-12 col-md-5 col-lg-5">
-          <img class = "img-responsive" src="img/skullEgg.png">
+          <img class = "img-responsive" src="img/skullEgg.png" alt = "skullEgg">
         </div>
       </div>
      

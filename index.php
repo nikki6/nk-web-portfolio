@@ -59,7 +59,6 @@
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron container">
-        <img src="" class = "img-responsive row" alt = ""/>
         <div class = "row">
           <h1 class = "nk col-md-12 col-lg-12 col-sm-12 col-xs-12">Hi I'm Nikki Keller,</h1>
         </div>
@@ -113,10 +112,12 @@
               <?php } else { ?>
  -->
             <p class = "para">
-              If you would like to hire me send me a message and I will send you my resume and we can discuss the opportunily
+              If you would like to hire me  or need more information send me a message and I will get back to you as soon as possible!
             </p>
-            
-            <a href="mailto:dkn5678@gmail.com"><span class="glyphicon glyphicon-send"></span></a>
+            <div class = "email">
+              <a href="mailto:dkn5678@gmail.com">Send your email here!</a>
+            </div>
+
             <!-- <form role="form" method="post" action="index.php">
               <div class="form-group">
                 <label for="name">Name</label>
@@ -153,12 +154,13 @@
                   <img class = "socialMedia"  src = "images/Facebook.png" alt = "Facebook"/>
                 </a>
               </li>
-              <li class="http://www.linkedin.com/pub/nicole-keller/86/b72/108"><a href="./"><img class = "socialMedia"  src = "images/LinkedIn.png" alt = "LinkedIn"/></a></li>
+              <li class="http://www.linkedin.com/pub/nicole-keller/86/b72/108"><a href="./"><img class = "socialMedia"  src = "images/Linkedin.png" alt = "LinkedIn"/></a></li>
             </ul>
           </div>
       </div>
 
     </div> <!-- /container -->
+  </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

@@ -9,7 +9,7 @@ body{
 	background: #832020;
 	border-bottom: #080808;
 	padding-top: 5px;
-	font-family: 'bornregular', sans-serif;
+	font-family: 'bornregular', serif;
 
 }
 
@@ -156,6 +156,22 @@ label{
 }
 
 
+.email a, .email a:link{
+	color:#832020;
+	font-size: 1.5em;
+	text-align: center;
+
+}
+
+.email a:visited{
+	color:#832020;
+}
+
+.email a:hover, .email a:active{
+	color:#FCEBC2;
+	text-decoration: none;
+}
+
 
 
 
@@ -169,20 +185,12 @@ label{
 .socialMedia{
 	width: 5.5em;
 	text-align: center;
-	vertical-align: center;
 } 
 
-/*.example{
-	margin-right: 20px;
-}*/
+
 
 /*Media Queries*/
-@media (min-width: 993px){
-	.socialMedia{
-		/*padding-top: 200px;*/
-		float: bottom;
-	}
-}
+
 @media (max-width: 992px){
 	
 	.contact{
@@ -227,7 +235,7 @@ label{
 }
 
 
-.exlink:hover, :active{
+.exlink:hover, .exlink:active{
 	color:#B6544E;
 }
 
