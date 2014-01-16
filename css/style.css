@@ -86,16 +86,31 @@ b{
 .jumbotron {
 	background: #827A65;
 	color:#FCEBC2;
-	font-family: 'bornregular', sans-serif;
-	word-spacing: 2px;
+	font-family: 'bornregular', serif;
+	word-spacing: 3px;
 	border: 3px solid #FCEBC2;
+	text-align: center;
 }
 
 .jumbotron h1{
 	font-family: 'pacificoregular', serif;
-	font-weight: 400;
-	font-size: 3em;
+	font-size: 4em;
+	letter-spacing: 3px;
+	text-align: center;
+
+
 }
+
+#amp{
+	width: 40px;
+	padding-bottom: 15px;
+}
+
+.smAmp{
+	width: 15px;
+
+}
+
 
 .page-header{
 	border-bottom: 1px solid #080808;

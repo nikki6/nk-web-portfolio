@@ -60,11 +60,11 @@
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron container">
         <div class = "row">
-          <h1 class = "nk col-md-12 col-lg-12 col-sm-12 col-xs-12">Hi I'm Nikki Keller,</h1>
+          <h1 class = "nk col-md-12 col-lg-12 col-sm-12 col-xs-12">Hello! I'm Nikki,</h1>
         </div>
         <div class = "row">
           <p id="in" class = "col-md-12 col-lg-12 col-sm-12 col-xs-12">
-            I'm an experienced <em>computer scientist</em> whose <b>passion</b> is to create websites. 
+            an experienced  <em>computer scientist</em>   whose  <b>passion</b>   is to create unique <img src="images/amp2.png" alt = "and" id = 'amp'>captivating websites. 
           </p>
           
        </div>
@@ -86,12 +86,16 @@
                 <li>CSS/CSS3</li>
                 <li>JavaScript</li>
                 <li>PHP</li>
+                <li>Inkscape</li>
+                <li>Currently Learning: Ruby on Rails</li>
               </ul>
               <ul class = "list list2 col-md-2 col-lg-2 col-sm-4 col-xs-4 col-lg-offset-1 col-md-offset-1 ">
                 <li>jQuery</li>
                 <li>Bootstrap</li>
                 <li>GIMP</li>
                 <li>MySQL</li>
+                <li>Git</li>
+                <li>SVN</li>
               </ul>
             </div>
           </div>
@@ -149,13 +153,13 @@
           <div class = "social col-md-5 col-lg-5 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1 ">
             <ul class ="list list-inline social">
               <li><a href="https://twitter.com/nkellerdesign"><img  class = "socialMedia" src = "images/Twitter.png" alt = "Twitter"/></a></li>
-              <li>
+              <!-- <li>
                 <a href="#">
                   <img class = "socialMedia"  src = "images/Facebook.png" alt = "Facebook"/>
                 </a>
               </li>
               <li class="http://www.linkedin.com/pub/nicole-keller/86/b72/108"><a href="./"><img class = "socialMedia"  src = "images/Linkedin.png" alt = "LinkedIn"/></a></li>
-            </ul>
+             --></ul>
           </div>
       </div>
 
@@ -170,7 +174,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script src="js/jquery.fittext.js"></script>
   <script>
-    jQuery(".nk").fitText(1.2, {minFontSize:'50px', maxFontSize: '80px'});
+    jQuery(".nk").fitText(1.2, {minFontSize:'80px', maxFontSize: '120px'});
     jQuery("#in").fitText(1.2, { minFontSize: '20px', maxFontSize: '30px' })
     // jQuery("#in").fitText();
   </script>

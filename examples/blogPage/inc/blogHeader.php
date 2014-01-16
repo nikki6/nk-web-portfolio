@@ -38,7 +38,7 @@
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
             <li class=""><a href="blog.php">Home</a></li>
-            <li><a href="recipes.php">Recipes</a></li>
+            <!-- <li><a href="recipes.php">Recipes</a></li> -->
             <li><a href="../../example.php">Back to Portfolio</a></li>
           </ul>
         </div><!--/.nav-collapse -->

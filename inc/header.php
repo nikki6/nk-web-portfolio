@@ -42,7 +42,7 @@
             <li class=""><a href="index.php">Home</a></li>
 <!--             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
- -->            <li><a href="example.php">Examples</a></li>
+ -->            <li><a href="example.php">My Works</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
