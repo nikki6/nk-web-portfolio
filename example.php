@@ -66,6 +66,21 @@
 			    </div>
 			  </div>
 
+		
+		<div class="col-sm-6 col-md-4">
+			    <div class="thumbnail">
+			    	<div class ="box box4">
+			    		<img class = "img-responsive" src="" alt="...">
+			    	</div>
+			      
+			      <div class="caption">
+			        <h3>New Rugby Website Design</h3>
+			        <p>This site is the updated design for the rugby website since I wasn't responsible for creating the design of the other site. Also the code from the 
+			        	old site is really bad and needs serious cleaning up.</p>
+			        <p><a href="examples/RugbyWebsite/index.php" class="btn btn-primary" role="button">Visit Site</a></p>
+			      </div>
+			    </div>
+			  </div>
 		</div>
 	</div>
 		 <!-- Bootstrap core JavaScript

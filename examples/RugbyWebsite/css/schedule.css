@@ -1,0 +1,21 @@
+/*Schedule Page*/
+.schedule{
+	padding: 70px 50px;
+	font-size: 2em;
+	background-color: rgba(46, 204, 113,1.0);
+}
+
+.schedule #scheduleTab li{
+	border: solid 2px rgba(236, 240, 241,0.7);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+
+.schedule .ses{
+	font-size: 20px;
+}
+
+.schedule h1{
+	font-size: 2em;
+}

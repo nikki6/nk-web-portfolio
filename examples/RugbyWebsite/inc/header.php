@@ -15,21 +15,14 @@
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
-  <link rel="stylesheet" type="text/css" href="css/fontStyleSheet.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/schedule.css">
+
 
   <script type="text/javascript" src="parallax/js/js.js"></script>
   <script type="text/javascript" src="parallax/js/jquery.stellar.min.js"></script>
   <script type="text/javascript" src="parallax/js/waypoints.min.js"></script>
   <script type="text/javascript" src="parallax/js/jquery.easing.1.3.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function(){ 
-        $("#myTab a").click(function(e){
-          e.preventDefault();
-          $(this).tab('show');
-        });
-    });
-  </script>
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -53,40 +46,29 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a href="#">Home</a></li>
+      <li data-slide = "1"><a href="index.php">Home</a></li>
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Team <b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Schedule</a></li>
-          <li><a href="#">Roster</a></li>
-          <li><a href="#">Sevens</a></li>
-          <li><a href="#">Kit Bag</a></li>
-          <li><a href="#">Home Field</a></li>
+          <li data-slide = "5"><a href="#slide5">Schedule and Maps</a></li>
+          <li data-slide = "6"><a href="#slide6">Roster</a></li>
+          <li data-slide = "3"><a href="#slide3">Important Papers</a></li>
         </ul>
       </li>
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">News <b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Team News</a></li>
-          <li><a href="#">Community Service</a></li>
+          <lidata-slide = "2"><a href="#slide2">Team News</a></li>
         </ul>
       </li>
     
     <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media <b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Photos</a></li>
-          <li><a href="#">Promo</a></li>
+          <li><a href="#slide7">Photos and Videos</a></li>
         </ul>
       </li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Misc <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">About Rugby</a></li>
-          <li><a href="#">Contact Us</a></li>
-         
-        </ul>
-      </li>
+      <li><a href="#slide4">More Info</a></li>
     </ul>
   </div><!-- /.navbar-collapse -->
 </nav>
