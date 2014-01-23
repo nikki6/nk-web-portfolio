@@ -79,6 +79,8 @@
             </p>
           </div>
           <div class = "main skills col-md-5 col-lg-5 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1 pull-right ">
+           
+
             <h1 class = "page-header ">The Skills</h1>
             <div class = "row">
               <ul class = "list list1 col-md-4 col-lg-4 col-sm-5 col-xs-5 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
@@ -96,6 +98,7 @@
                 <li>MySQL</li>
                 <li>Git</li>
                 <li>SVN</li>
+                <li>MySQL</li>
               </ul>
             </div>
           </div>
