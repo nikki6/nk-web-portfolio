@@ -2,11 +2,14 @@
 
 	include("inc/header.php");
 
-?>
+?>		 <!-- TODO: Figure out how to format the page better so that the 
+                 page isn't all unformatted when the window gets to the sm size. 
+                 And the example panes move to only 2 in a row.
+             -->
 
 		<div class = "container">
 			<div class="row">
-			  <div class="col-sm-6 col-md-4">
+			  <div class="col-sm-6 col-md-6">
 			    <div class="thumbnail">
 			    	<div class ="box box1">
 			    		<img class = "img-responsive" src="images/onePage.png" alt="...">
@@ -20,7 +23,7 @@
 			    </div>
 			  </div>
 
-			  <div class="col-sm-6 col-md-4">
+			  <div class="col-sm-6 col-md-6">
 			    <div class="thumbnail">
 			    	<div class ="box box2">
 			    		<img class = "img-responsive" src="images/blogPage.png" alt="...">
@@ -34,7 +37,7 @@
 			    </div>
 			  </div>
 
-			  <div class="col-sm-6 col-md-4">
+			  <div class="col-sm-6 col-md-6">
 			    <div class="thumbnail">
 			    	<div class ="box box3">
 			    		<img class = "img-responsive" src="images/fwrfcPage.png" alt="...">
@@ -50,9 +53,9 @@
 			      </div>
 			    </div>
 			  </div>
-			</div>
-			<div class="row">
-			  <div class="col-sm-6 col-md-4">
+			<!-- </div>
+			<div class="row"> -->
+			  <div class="col-sm-6 col-md-6">
 			    <div class="thumbnail">
 			    	<div class ="box box4">
 			    		<img class = "img-responsive" src="images/exoticReef.png" alt="...">
@@ -67,7 +70,7 @@
 			  </div>
 
 		
-		<div class="col-sm-6 col-md-4">
+		<div class="col-sm-6 col-md-6">
 			    <div class="thumbnail">
 			    	<div class ="box box4">
 			    		<img class = "img-responsive" src="" alt="...">
