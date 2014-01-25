@@ -3,7 +3,7 @@ html,body{
 }
 body{
 	font-family: 'Questrial', sans-serif;
-
+	color:black;
 }
 
 h1{
@@ -32,7 +32,7 @@ h1{
 /*	position: relative;
 */	box-shadow:inset 0px -10px 10px rgba(0,0,0,0.3);
 	padding: 40px 20px;
-	font-size: 30px;
+	font-size: 22px;
 
 }
 
@@ -116,7 +116,7 @@ h1{
 	/*background-color: rgba(236, 240, 241,.9);
 	border-radius: 20px;
 	border:dotted 4px rgba(127, 140, 141,.5);*/
-	font-size: 26px;
+	font-size: 22px;
 }
 
 

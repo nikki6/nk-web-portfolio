@@ -75,7 +75,7 @@
 				<h1>Schedule and Maps</h1>
 <!-- 				<div class = "container">
  -->					<div class = "row">
-						<div class = "col-md-5 col-lg-5 col-sm-12 col-xs-12">
+						<div class = "col-md-7 col-lg-7 col-sm-12 col-xs-12">
 							<ul class="nav nav-tabs nav-justified" id="scheduleTab">
 						        <li class="active"><a href="#sectionA">Current</a></li>
 						        <li class="dropdown">
