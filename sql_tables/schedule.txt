@@ -1,0 +1,28 @@
+
+
+<<<<<<< HEAD
+insert into schedule values('2014-03-15',	'Highlanders',	'Walnut Ridge',	NULL, 'yes');
+insert into schedule values('2014-03-22',	'Nova B', 	'Away',	'NULL', 'yes');
+insert into schedule values('2014-03-29',	'College Invitational',	'Warner Farm',	'NULL', 'yes');
+insert into schedule values('2014-04-05',	'South Buffalo Sinners',	'Walnut Ridge',	'NULL', 'yes');
+insert into schedule values('2014-04-12',	'Lehigh Valley',	'Away',	'NULL', 'yes');
+insert into schedule values('2014-04-26',	'TBD',	'TBD',	'NULL', 'yes');
+insert into schedule values('2014-05-03',	'Harrisburg',	'Walnut Ridge',	'NULL', 'yes');
+insert into schedule values('2014-05-10',	'Triebel Cup',	'Walnut Ridge',	'NULL', 'yes');
+
+insert into schedule values('2013-09-07',	'Lehigh Valley',	'Lehigh Valley',	'Win', 'no');
+insert into schedule values('2013-09-14',	'NE Philly',	'Walnut Ridge',	'Win', 'no');
+insert into schedule values('2013-09-21',	'Stingers',	'Stingers',	'Win', 'no');
+insert into schedule values('2013-10-05',	'All Deaf Women's DC Team- Scrimmage',	'Walnut Ridge',	'N/A, 'no');
+insert into schedule values('2013-10-19',	'NE Philly',	'Walnut Ridge',	'Win', 'no');
+insert into schedule values('2013-10-26',	'Lehigh Valley',	'Walnut Ridge',	'Win', 'no');
+=======
+insert into schedule values('2014-03-15',	'Highlanders',	'Walnut Ridge',	'NULL');
+insert into schedule values('2014-03-22',	'Nova B', 	'Away',	'NULL');
+insert into schedule values('2014-03-29',	'College Invitational',	'Warner Farm',	'NULL');
+insert into schedule values('2014-04-05',	'South Buffalo Sinners',	'Walnut Ridge',	'NULL');
+insert into schedule values('2014-04-12',	'Lehigh Valley',	'Away',	'NULL');
+insert into schedule values('2014-04-26',	'TBD',	'TBD',	'NULL');
+insert into schedule values('2014-05-03',	'Harrisburg',	'Walnut Ridge',	'NULL');
+insert into schedule values('2014-05-10',	'Triebel Cup',	'Walnut Ridge',	'NULL');
+>>>>>>> 06064708d0486212a049cb30e841e650b3ce9c69

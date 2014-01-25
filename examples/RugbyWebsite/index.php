@@ -269,7 +269,9 @@
 						    </div>
 						</div>
 						<div class = "col-md-4 col-lg-4 col-sm-12 col-xs-12 push-right">
-
+								<div class = "box">
+									<p>This is where a map will go</p>
+								</div>
 						</div>
 					</div>
 				</div>
