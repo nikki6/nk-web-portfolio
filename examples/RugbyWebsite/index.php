@@ -58,7 +58,33 @@
 	<!-- Slide #3 -->
 		<div class = "slide" id = "slide3" data-slide = "3" data-stellar-background-ratio = "0.5">
 			<div class = "info">
-				
+				<h1>Important Information</h1>
+				<div class="media">
+				  <a class="pull-left" href="#">
+				    <img class="media-object" src="..." alt="...">
+				  </a>
+				  <div class="media-body">
+				    <h2>Emergency Info Sheet</h2>
+				    <p>Complete and Submit to the <a href="mailto:fwrfc.execsec@yahoo.com">Executive Secretary</a></p>
+				  </div>
+				</div>
+				<div class="media">
+				  <a class="pull-left" href="#">
+				    <img class="media-object" src="..." alt="...">
+				  </a>
+				  <div class="media-body">
+				    <h2>Get CIPPed</h2>
+				    <p>Forward information to the <a href="mailto:fwrfc.execsec@yahoo.com">Executive Secretary</a> after you have registered. Also if 
+				    	you need help you can contact the Executive Secretary and she will walk you through it.</p>
+				  </div>
+				</div>
+
+				<h2>Contact Us</h2>
+				<ul>
+					<li><a href="mailto:fwrfc.president@yahoo.com?subject=Mail from the FWRFC Website">Lacy Ames, President</a></li>
+					<li><a href="mailto:fwrfc.vicepresident@yahoo.com?subject=Mail from the FWRFC Website">Leslie Walsh, Vice President</a></li>
+				</ul>
+
 			</div>
 		</div>
 	<!-- Slide #4 -->
