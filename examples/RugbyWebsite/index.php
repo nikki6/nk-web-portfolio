@@ -89,11 +89,22 @@
 		</div>
 	<!-- Slide #4 -->
 		<div class = "slide" id = "slide4" data-slide = "4" data-stellar-background-ratio = ".5">
-			<div class = "info">
-				<h1>Slide 4</h1>
-				<p>This is the end of the example but it can go on and on and on.</p>
+			<div class = "row">
+				<div class = "info">
+					<div class = "contact col-md-6 col-lg-6 col-sm-12 col-xs-12">
+						<h1>Contact Us</h1>
+						<ul>
+							<li>Lacy Ames, President</li>
+							<li>Leslie Walsh, Vice President</li>
+						</ul>
+					</div>
+					<div class = "video col-md-6 col-lg-6 col-sm-12 col-xs-12">
+						<h1>Rugby 101</h1>
+						<p>Check out this awesome video that Washington State Women's Rugby Team made explain the basics on rugby.</p>
+						<iframe width="100%" height="40%" src="//www.youtube.com/embed/YVtD0_y2hr0" frameborder="1" allowfullscreen></iframe>
+					</div>
+				</div>
 			</div>
-			
 		</div>
 	<!-- Slide #5 -->
 		<div class = "slide" id = "slide5" data-slide = "5" data-stellar-background-ratio = ".5">
