@@ -161,4 +161,13 @@ h1{
 
 #slide4 .contact{
 	border: 2px dashed rgba(127, 140, 141,1.0);
+	margin-top: 20%;
+}
+
+/******************************
+ SLIDE 5 
+*******************************/
+
+#slide5 .box{
+	padding-top: 20%;
 }

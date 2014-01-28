@@ -13,16 +13,14 @@
     	echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 	}
 
-	echo $mysqli->host_info . "\n";
 	$result = mysqli_query($mysqli, "SELECT * FROM schedule WHERE isCurrent LIKE 'yes'");
 	
-	$num = mysqli_
+	$num = mysqli_num_rows($result);
 
-		$row = mysqli_fetch_assoc($result);
-		echo " ". $row['date']." ". $row['opposition'] . " ". $row['location']. ".";
 
-	var_dump($row);
+		while($row = mysqli_fetch_assoc($result)){
+			printf("<td><tr>%s</tr><tr>%s</tr><tr>%s</tr><tr>%s</tr></td>",$row['date'], $row['opponent'], $row['location'], $row['score']);
+		}
 
-	var_dump($mysqli);
 
 	?>
