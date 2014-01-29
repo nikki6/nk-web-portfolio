@@ -3,11 +3,16 @@ html,body{
 }
 body{
 	font-family: 'Questrial', sans-serif;
-	color:black;
-}
+/*	color:black;
+*/}
 
 h1{
 	font-family: 'Playfair Display', serif;
+}
+
+.banner1{
+	color:white;
+
 }
 
 .navbar{
@@ -21,6 +26,34 @@ h1{
 	padding: 20px 50px;
 
 
+
+}
+
+.media-object{
+	max-width: 150px;
+}
+
+a, a:link {
+	color:rgba(39, 174, 96,1.0);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited{
+	color:rgba(39, 174, 96,1.0);
+}
+
+a:hover, a:active{
+	color:rgba(192, 57, 43,1.0);
+	text-decoration: none;
+}
+
+.video{
+	text-align: center;
+}
+
+.navbar .collapse{
+	padding-right: 20px;
 }
 
 /*Slides*/
@@ -39,7 +72,6 @@ h1{
 .slide h1{
 	text-align: center;
 	font-size: 50px;
-	color: black;
 	padding-bottom: 30px;
 
 }
@@ -82,11 +114,12 @@ h1{
 #slide1{
 	margin-top: 55px;
 /*	background-color:rgba(52, 73, 94,1.0);
-*/	background-image: url('../images/04.jpg');
+*/	background-image: url('../images/rugbypitch.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;	color:black; 
+	background-size: cover;	
+	color:white; 
 
 
 }
@@ -109,6 +142,10 @@ h1{
  SLIDE 2 
 *******************************/
 #slide2{
+	padding-top: -30px;
+	background-image:url("../images/wavecut/wavecut_@2X.png");
+	background-repeat: repeat;
+	background-position: center;
 
 }
 
@@ -131,9 +168,16 @@ h1{
  SLIDE 3 
 *******************************/
 #slide3{
-	background-color:rgba(39, 174, 96,1.0);
+	background-color:rgba(0,96,0, 0.5);
+	background-image: url("../images/worn_dots/worn_dots_@2Xgreen.png");
+	background-repeat: repeat;
+	background-position: center;
 	box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
 
+}
+
+#slide3 a, #slide3 a:link{
+	color:rgba(241, 196, 15,1.0);
 }
 
 /******************************
@@ -141,11 +185,11 @@ h1{
 *******************************/
 
 #slide4{
-	background-image: url(../../images/clearBackgrounds/unsplash-1.jpg);
-	-webkit-background-size: cover;
+	background-image: url("../images/silver_scales/silver_scales_@2X.png");
+	/*-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover;*/
 }
 
 #slide4 .info{
@@ -159,10 +203,6 @@ h1{
 
 }
 
-#slide4 .contact{
-	border: 2px dashed rgba(127, 140, 141,1.0);
-	margin-top: 20%;
-}
 
 /******************************
  SLIDE 5 
@@ -171,3 +211,156 @@ h1{
 #slide5 .box{
 	padding-top: 20%;
 }
+
+/*******************************
+		Media Queries
+********************************/
+
+@media (max-width: 992px){
+	.contact h2{
+		text-align: center;
+	}
+
+	.contact{
+		border-top: 2px solid black;
+		text-align: left;
+	}
+
+	.video iframe{
+		width:70%;
+		height:50%;
+	}
+	
+}
+
+@media(max-width: 400px){
+	
+	#slide1{
+		background-image: url('../images/rugbypitch.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 1300px auto;
+	}
+	
+	#slide2 .info{
+		font-size: .8em;
+	}
+
+	#slide2 .info h2{
+		font-size: 1em;
+	}
+
+	.contact h2{
+		text-align: center;
+	}
+
+	.contact{
+		border-top: 2px solid black;
+		text-align: left;
+	}
+	
+	.media-object{
+		max-width: 50px;
+		width:100%;
+	}
+
+	.media-body{
+		font-size: .8em;
+	}
+
+	#slide3 h1{
+		font-size: 1.2em;
+	}
+
+	#slide3 h2{
+		font-size: 1.2em;
+	}
+
+	#slide3 li{
+		font-size: .8em;
+	}
+
+	.video{
+		 width: 100%;
+		 height: 50%;
+	}
+
+}
+
+
+/****************************
+       Schedule Page
+*****************************/
+.schednmaps{
+	background-image: url("../images/whitey/whitey.png");
+}
+
+
+.schedule{
+	padding-top: 70px;
+	font-size: 1.2em;
+	background-image: url('../images/grey_wash_wall/grey_wash_wall_@2X.png');
+	color:white;
+}
+
+.schedule h1{
+	color:white;
+}
+
+.schedule a, .schedule a:link{
+	color:black;
+}
+
+.schedule a:visited{
+	color:black;
+}
+
+#scheduleTab li{
+	border-radius: 5px;
+	border-top:1px solid white;
+	border-right:1px solid white;
+	border-left:1px solid white;
+}
+
+#scheduleTab li{
+	border-right:1px solid white;
+	border-left:1px solid white;
+}
+
+.tab-content{
+	margin-top: 0px;
+}
+
+
+
+	
+
+.table-bordered{
+	border-radius: 10px;
+	border:2px solid white;
+	
+}
+
+iframe{
+	border-radius: 5px;
+	border:5px solid white;
+}
+
+
+
+/****************************
+       Roster Page
+*****************************/
+.roster{
+	padding-top: 70px;
+	font-size: 1.2em;
+	background-image: url('../images/grey_wash_wall/grey_wash_wall_@2X.png');
+	height:1000px;
+}
+
+.roster .info{
+	background-image: url("../images/whitey/whitey.png");
+
+}
+
+
