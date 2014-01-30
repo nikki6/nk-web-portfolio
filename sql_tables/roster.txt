@@ -11,3 +11,6 @@ Group varchar(255) NOT NULL
 insert into roster values('Keller',	'Nikki',	'Minnow',	'Scrumhalf, Flyhalf, Flanker, Inside Center', 'Web Master', 'Forward Back');
 
 insert into roster values('Ames',	'Lacy',	'Humper',	'Hooker, Prop', 'President', 'Forward');
+
+insert into roster values('Jacobs',	'Danielle',	'Minnow',	'Prop, 8-Man, Flyhalf, Hooker, Flanker', '', 'Forward');
+
