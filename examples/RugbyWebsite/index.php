@@ -12,7 +12,7 @@
 		</div>
 <!-- 		<img class = "logo" src="images/logoholder.png">
  -->	<!-- Slide #2 -->
-		<div class = "slide" id = "slide2" data-slide = "2" data-stellar-background-ratio = ".5">
+		<div class = "slide" id = "slide2" >
 			<div class = "info">
 				<div class = "row">
 					<div class = "gen col-md-7 col-lg-7 col-sm-12 col-xs-12">
@@ -24,17 +24,13 @@
 								 a "friendly" 15s season in the spring, a competitive summer 7s season AND 
 								 trainings to span the winter months. Plus we have social events, trips and 
 								 community projects throughout the year.
-							</p><br>
-							<a href="http://your4state.com/search-fulltext?&amp;nxd_id=124145">(See a news report on our team on WHAG-TV Hagerstown.)</a>
-							<br><br>
+							</p>
 							<p>
 								It's always a great time for new players to join us! 
 								All experience levels are welcome; no previous knowledge of the 
 								sport is necessary! Check out the <a href="about.html"><b>About Rugby</b></a>
-								 page for a brief introduction to the sport. Also, we now have a blog where we post pictures and other messages. 
-								 You can find it at <a href="http://fwrfc.blogspot.com/">http://fwrfc.blogspot.com/</a>
+								 page for a brief introduction to the sport. 
 							</p>
-							<p></p>
 						</div>
 						<div class = "row">
 							<h2>Practice Information</h2>
@@ -51,19 +47,33 @@
 						</div>
 					</div>
 					<div class = "col-md-5 col-lg-5 col-sm-12 col-xs-12">
-						<img class = "img-responsive" src = "images/team.png">
+						<div class = "row">
+							<div class = "teampic col-md-12 col-lg-12 col-sm-12 col-xs-12">
+								<img class = "img-responsive" src = "images/team.png">
+							</div>
+						</div>
+						<div class = "row">
+							<div class = "social col-md-12 col-lg-12 col-sm-12 col-xs-12">
+								<ul class = "list list-inline">
+									<li><a href="https://www.facebook.com/FWRFC‎"><img class = "socialMedia img-responsive" src = "images/social_media/Facebook-icon.png"></a></li>
+									<li><a href="http://fwrfc.blogspot.com"><img class = "socialMedia img-responsive" src = "images/social_media/Blogger-icon.png"></a></li>
+<!-- 									<li><a href="#"><img class = "socialMedia img-responsive" src = "images/social_media/Youtube-Old-icon.png"></a></li>
+ -->									<li><a href="https://twitter.com/FWRFC‎"><img class = "socialMedia img-responsive" src = "images/social_media/Twitter-icon.png"></a></li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	<!-- Slide #3 -->
-		<div class = "slide" id = "slide3" data-slide = "3" data-stellar-background-ratio = "0.5">
+		<div class = "slide" id = "slide3"  data-stellar-background-ratio = "0.5">
 			<div class = "info">
 				<h1>Important Information</h1>
 				<div class = "row">
 					<div class = "col-md-7 col-lg-7 col-sm-12">
 						<div class="media">
-						  <a class="pull-left" href="#">
+						  <a class="pull-left" href="docs/emergencyform.pdf">
 						    <img class="media-object img-responsive" src="images/text_document.png" alt="document">
 						  </a>
 						  <div class="media-body">
@@ -72,7 +82,7 @@
 						  </div>
 						</div>
 						<div class="media">
-						  <a class="pull-left" href="#">
+						  <a class="pull-left" href="https://platform.allplayers.com/g/frederick_women_s_rugby_football_club-17320_2013/register?destination=https%3A%2F%2Fplatform.allplayers.com%2Fg%2Fusarugby_2013%2Fregister&from=110e430f-017c-11e3-9d8d-22000a929134">
 						    <img class="media-object img-responsive" src="images/usarugby1.png" alt="usarugby">
 						  </a>
 						  <div class="media-body">

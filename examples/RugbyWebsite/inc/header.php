@@ -19,10 +19,10 @@
   <link rel="stylesheet" type="text/css" href="css/schedule.css">
 
 
- <script type="text/javascript" src="parallax/js/js.js"></script>
-  <script type="text/javascript" src="parallax/js/jquery.stellar.min.js"></script>
-  <script type="text/javascript" src="parallax/js/waypoints.min.js"></script>
-  <script type="text/javascript" src="parallax/js/jquery.easing.1.3.js"></script>
+ <script type="text/javascript" src="../parallax/js/js.js"></script>
+  <script type="text/javascript" src="../parallax/js/jquery.stellar.min.js"></script>
+  <script type="text/javascript" src="../parallax/js/waypoints.min.js"></script>
+  <script type="text/javascript" src="../parallax/js/jquery.easing.1.3.js"></script>
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->

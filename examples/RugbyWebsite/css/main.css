@@ -56,6 +56,14 @@ a:hover, a:active{
 	padding-right: 20px;
 }
 
+.social, .socialMedia{
+	text-align: center;
+}
+
+.teampic{
+	margin-bottom: 20px;
+}
+
 /*Slides*/
 
 .slide{
@@ -230,9 +238,20 @@ a:hover, a:active{
 		width:70%;
 		height:50%;
 	}
+
 	
 }
 
+@media (max-width: 768px){
+	.navbar-default {
+		background-color: #222222;
+	}
+
+	.narbar-inverse .collapse .navbar-link  li:link, .narbar-default .navbar-nav li:active {
+		background-color: green;
+		color:red;
+	}
+}
 @media(max-width: 400px){
 	
 	#slide1{
@@ -355,12 +374,27 @@ iframe{
 	padding-top: 70px;
 	font-size: 1.2em;
 	background-image: url('../images/grey_wash_wall/grey_wash_wall_@2X.png');
-	height:1000px;
+	
 }
 
-.roster .info{
+.roster .info{ 
 	background-image: url("../images/whitey/whitey.png");
-
+	height:900px;
+	margin-bottom: 50px;
 }
 
+.roster .table-bordered{
+	border:1px solid #7f8c8d;
+}
+
+.roster .nav-tabs:hover{
+	color:#7f8c8d;
+}
+
+
+@media(max-width: 400px){
+	.info{
+		font-size: .6em;
+	}
+}
 

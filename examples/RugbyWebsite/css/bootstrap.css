@@ -3522,7 +3522,7 @@ input[type="button"].btn-block {
 
 .dropdown-menu {
   position: absolute;
-  top: 100%;
+  top: 115%;
   left: 0;
   z-index: 1000;
   display: none;
@@ -3530,7 +3530,7 @@ input[type="button"].btn-block {
   min-width: 160px;
   padding: 5px 0;
   margin: 2px 0 0;
-  font-size: 14px;
+  font-size: 18px; 
   list-style: none;
   background-color: #ffffff;
   border: 1px solid #cccccc;
@@ -4869,6 +4869,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 @media (max-width: 767px) {
+  .navbar-inverse .navbar-nav > li > a{
+    background-color: #222222;
+  }
+  .navbar-inverse .navbar-nav > li > a:hover{
+    background-color: #222222;
+  }.navbar-inverse .navbar-nav > li > a:focus{
+    background-color: #222222;
+  }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #080808;
   }
@@ -4881,8 +4889,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #ffffff;
-    background-color: transparent;
-  }
+/*    background-color: transparent;
+*/  }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
@@ -4893,8 +4901,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #444444;
-    background-color: transparent;
-  }
+/*    background-color: transparent;
+*/  }
 }
 
 .navbar-inverse .navbar-link {

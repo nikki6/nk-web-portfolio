@@ -8,8 +8,8 @@
 		$varExecBoard = $_POST['formEB'];
 		$varGroup = $_POST['formGroup'];
 			
-		
-			$db = mysqli_connect("localhost","root","root", "Team_Schedule");
+			include_once("security/psl-config.php");
+			$db = mysqli_connect(HOST, USER, PASSWORD, DATABASE);
 			if(mysqli_connect_errno()){
 				 //echo "error in connecting". mysqli_connect_errno();
 				 exit();
@@ -17,7 +17,7 @@
 				//echo "Connection was a success!";
 			
 
-				$sql = "INSERT INTO roster VALUES ('".$varLastName . "', '" .$varFirstName . "', '" .
+				$sql = "INSERT INTO roster VALUES ('".$varFirstName ."', '" .$varLastName . "', '" .
 						$varNickName . "', '" .$varPosition . "', '" .$varExecBoard . "', '" .$varGroup. "')";
 				mysqli_query($db, $sql);
 
@@ -27,6 +27,6 @@
 	}
 
 	
-	header("Location: rosterForm.php");
+	header("Location: index.php");
 	exit();
 ?>
