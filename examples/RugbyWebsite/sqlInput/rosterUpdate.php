@@ -1,14 +1,24 @@
 <?php
 	
 	if($_POST['formSubmit'] == "Submit"){
-		$varOrigFirstName = $_POST['oldFN'];
-		$varOrigLastName = $_POST['oldLN'];
-		$varUpdFirstName = $_POST['updFN'];
-		$varUpdLastName = $_POST['updLN'];
-		$varUpdNickName = $_POST['updNN'];
-		$varUpdPosition = $_POST['updPosition'];
-		$varUpdExecBoard = $_POST['updEB'];
-		$varUpdGroup = $_POST['updGroup'];
+		$varOrigFirstName = mysql_real_escape_string($_POST['oldFN']);
+		$varOrigLastName = mysql_real_escape_string($_POST['oldLN']);
+		$varUpdFirstName = mysql_real_escape_string($_POST['updFN']);
+		$varUpdLastName = mysql_real_escape_string($_POST['updLN']);
+		$varUpdNickName = mysql_real_escape_string($_POST['updNN']);
+		$varUpdPosition = mysql_real_escape_string($_POST['updPosition']);
+		$varUpdExecBoard = mysql_real_escape_string($_POST['updEB']);
+		$varUpdGroup = mysql_real_escape_string($_POST['updGroup']);
+
+		$varOrigFirstName = htmlspecialchars_decode($varOrigFirstName);
+		$varOrigLastName = htmlspecialchars_decode($varOrigLastName);
+		$varUpdFirstName = htmlspecialchars_decode($varUpdFirstName);
+		$varUpdLastName = htmlspecialchars_decode($varUpdLastName);
+		$varUpdNickName = htmlspecialchars_decode($varUpdNickName);
+		$varUpdPosition = htmlspecialchars_decode($varUpdPosition);
+		$varUpdExecBoard = htmlspecialchars_decode($varUpdExecBoard);
+		$varUpdGroup = htmlspecialchars_decode($varUpdGroup);
+
 
 		$query = array();
 
@@ -71,6 +81,5 @@
 	
 	header("Location: index.php");
 	exit();
-
 
 ?>

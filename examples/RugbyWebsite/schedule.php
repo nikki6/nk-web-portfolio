@@ -151,7 +151,7 @@
 			<div class = "col-md-12 col-lg-12 col-sm-12 col-xs-12 push-right">
 					<div class = "box">
 						
-						<iframe width="100%" height="500px" frameborder="6" scrolling="yes" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1133+Rocky+Springs+Road,+Frederick,+MD&amp;aq=0&amp;oq=1133+Rocky&amp;sll=38.804821,-77.236967&amp;sspn=3.946532,4.042969&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=1133+Rocky+Springs+Rd,+Frederick,+Maryland+21702&amp;ll=39.438249,-77.444434&amp;spn=0.00382,0.003948&amp;z=14&amp;output=embed"></iframe>
+						<iframe width="100%" height="auto" frameborder="6" scrolling="yes" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1133+Rocky+Springs+Road,+Frederick,+MD&amp;aq=0&amp;oq=1133+Rocky&amp;sll=38.804821,-77.236967&amp;sspn=3.946532,4.042969&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=1133+Rocky+Springs+Rd,+Frederick,+Maryland+21702&amp;ll=39.438249,-77.444434&amp;spn=0.00382,0.003948&amp;z=14&amp;output=embed"></iframe>
 						<br />
 					</div>
 			</div>

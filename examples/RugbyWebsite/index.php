@@ -109,7 +109,7 @@
 					<div class = "video col-md-12 col-lg-12 col-sm-12 col-xs-12">
 						<h1>Rugby 101</h1>
 						<p>Check out this awesome video that Washington State Women's Rugby Team made explain the basics on rugby.</p>
-						<iframe class = "video" width="50%" height="70%" src="//www.youtube.com/embed/YVtD0_y2hr0" frameborder="1" allowfullscreen></iframe>
+						<iframe class = "video" width="50%" height="auto" src="//www.youtube.com/embed/YVtD0_y2hr0" frameborder="1" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>

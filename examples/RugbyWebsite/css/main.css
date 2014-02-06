@@ -1,5 +1,6 @@
 html,body{
 	width: 100%;
+	height:auto;
 }
 body{
 	font-family: 'Questrial', sans-serif;
@@ -132,6 +133,15 @@ a:hover, a:active{
 
 }
 
+@media (max-width: 768px), handheld{
+	#slide1{
+	background-image: url('../images/smallrugbypitch.png');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	}
+}
 #slide1 .info{
 	margin: 20% 10%;
 	padding: 20px;
@@ -312,13 +322,24 @@ a:hover, a:active{
 *****************************/
 .schednmaps{
 	background-image: url("../images/whitey/whitey.png");
-}
+	background-repeat: repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 
+}
 
 .schedule{
 	padding-top: 70px;
+	min-height: 990px;
 	font-size: 1.2em;
 	background-image: url('../images/grey_wash_wall/grey_wash_wall_@2X.png');
+	background-repeat: repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	color:white;
 }
 
