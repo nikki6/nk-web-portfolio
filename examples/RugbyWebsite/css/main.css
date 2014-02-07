@@ -133,9 +133,10 @@ a:hover, a:active{
 
 }
 
-@media (max-width: 768px), handheld{
+@media (max-width: 768px){
 	#slide1{
-	background-image: url('../images/smallrugbypitch.png');
+	/*background-color: #27ae60;*/
+	background-image: url('../images/rugbypitch.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -244,7 +245,7 @@ a:hover, a:active{
 		text-align: left;
 	}
 
-	.video iframe{
+	.video{
 		width:70%;
 		height:50%;
 	}
@@ -265,10 +266,10 @@ a:hover, a:active{
 @media(max-width: 400px){
 	
 	#slide1{
-		background-image: url('../images/rugbypitch.jpg');
+		background-image: url('../images/smallrugbypitch1.jpg');
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: 1300px auto;
+		/*background-size: 1300px auto;*/
 	}
 	
 	#slide2 .info{
