@@ -222,19 +222,9 @@ label{
 
 
 
-
-
-
-
-
-
-
-
-
 /*Start of the example page styles*/
 
 .examplepage{
-	
 	margin-top: 30px;
 	font-size: 20px;
 	color: #F2EDC3;
@@ -266,8 +256,29 @@ label{
 	padding: 20px 10px;
 }
 
+.caption{
+	overflow: scroll;
+}
+
 .box img{
 	border-radius: 5px;
 	border: 4px solid #827A65;
 }
+
+@media(max-width: 995px){
+	.thumbnail{
+		height: 550px;
+		overflow: scroll;
+	}
+	
+}
+
+@media (max-width: 767px){
+	
+	.thumbnail{
+		height: ;
+	}
+}
+
+
 

@@ -9,10 +9,10 @@
 
 		<div class = "container">
 			<div class="row">
-			  <div class="col-sm-6 col-md-6">
-			    <div class="thumbnail">
+			  <div class="col-sm-6 col-md-4">
+			    <div class="thumbnail one">
 			    	<div class ="box box1">
-			    		<img class = "img-responsive" src="images/onePage.png" alt="...">
+			    		<img class = "img-responsive" src="images/onePage.png" alt="singlePage">
 			    	</div>
 			      
 			      <div class="caption">
@@ -23,10 +23,10 @@
 			    </div>
 			  </div>
 
-			  <div class="col-sm-6 col-md-6">
-			    <div class="thumbnail">
+			  <div class="col-sm-6 col-md-4">
+			    <div class="thumbnail one">
 			    	<div class ="box box2">
-			    		<img class = "img-responsive" src="images/blogPage.png" alt="...">
+			    		<img class = "img-responsive" src="images/blogPage.png" alt="blogPage">
 			    	</div>
 			      
 			      <div class="caption">
@@ -37,10 +37,10 @@
 			    </div>
 			  </div>
 
-			  <div class="col-sm-6 col-md-6">
+			  <div class="col-sm-6 col-md-4">
 			    <div class="thumbnail">
 			    	<div class ="box box3">
-			    		<img class = "img-responsive" src="images/fwrfcPage.png" alt="...">
+			    		<img class = "img-responsive" src="images/fwrfcPage.png" alt="fwrfc">
 			    	</div>
 			      
 			      <div class="caption">
@@ -53,12 +53,11 @@
 			      </div>
 			    </div>
 			  </div>
-			<!-- </div>
-			<div class="row"> -->
-			  <div class="col-sm-6 col-md-6">
+			
+			  <div class="col-sm-6 col-md-4">
 			    <div class="thumbnail">
 			    	<div class ="box box4">
-			    		<img class = "img-responsive" src="images/exoticReef.png" alt="...">
+			    		<img class = "img-responsive" src="images/exoticReef.png" alt="exotic">
 			    	</div>
 			      
 			      <div class="caption">
@@ -70,10 +69,10 @@
 			  </div>
 
 		
-		<div class="col-sm-6 col-md-6">
+		<div class="col-sm-6 col-md-4">
 			    <div class="thumbnail">
 			    	<div class ="box box4">
-			    		<img class = "img-responsive" src="" alt="...">
+			    		<img class = "img-responsive" src="images/FWRFCNewDesign1.png" alt="newfwrfc">
 			    	</div>
 			      
 			      <div class="caption">

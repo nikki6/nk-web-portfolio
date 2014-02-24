@@ -1,0 +1,22 @@
+.tab-pane{
+	border-right: 2px solid gray;
+	border-left: 2px solid gray;
+	border-bottom: 2px solid gray;
+	margin-bottom: 100px;
+	padding: 50px 25px;
+}
+
+
+.rosterTable{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.rosterTable h2{
+	text-align: center;
+}
+
+.container{
+	padding: 50px 100px;
+}
+

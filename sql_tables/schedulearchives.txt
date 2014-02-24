@@ -1,0 +1,1 @@
+ALTER TABLE roster ADD UNIQUE INDEX  Name(LastName, FirstName);
