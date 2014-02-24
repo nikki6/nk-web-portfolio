@@ -58,14 +58,14 @@
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">News <b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li data-slide = "2"><a href="#slide2">Team News</a></li>
+          <li><a href="news.php">Team News</a></li>
         </ul>
       </li>
     
     <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media <b class="caret"></b></a>
         <ul class="dropdown-menu">
-          <li><a href="#slide7">Photos and Videos</a></li>
+          <li><a href="media.php">Photos and Videos</a></li>
         </ul>
       </li>
 <!--       <li><a href="#slide4">More Info</a></li>

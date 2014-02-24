@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>FWRFC</title>
+  <title>FWRFC Roster Input Form</title>
   <meta name="description" content="FWRFC Roster Input Form">
   <meta name="author" content="Nicole Keller">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">

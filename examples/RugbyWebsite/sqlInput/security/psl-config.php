@@ -1,6 +1,6 @@
 <?php
 	define ("HOST", "localhost");
-	define ("USER", "root");
-	define ("PASSWORD", "root");
-	define ("DATABASE", "Team_Schedule");
+	define ("USER", "nkellerw_sql");
+	define ("PASSWORD", "billabong69");
+	define ("DATABASE", "nkellerw_rugbyTeam");
 ?>

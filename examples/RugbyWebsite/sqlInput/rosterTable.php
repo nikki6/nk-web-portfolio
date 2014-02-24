@@ -8,8 +8,8 @@
                 <th>Exec Board</th>
               </tr>
             <?php   
-          
-              $mysqli = mysqli_connect("localhost", "root", "root", "Team_Schedule");
+              include_once("security/psl-config.php");
+              $mysqli = mysqli_connect(HOST, USER, PASSWORD, DATABASE);
               // Handles if the connection fails
               if ($mysqli->connect_errno) {
                   echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
