@@ -97,7 +97,25 @@
 									  		<th>Opposition</th>
 									  		<th>Venue</th>
 									  		<th>Score</th>
-									  	</tr>
+									  	</tr> 
+									  		<?php
+									  		$host = "www.nkellerwebdesign.com";
+									  		$user = "nkellerw_public";
+									  		$pw = "billabong17";
+						            		//$db = new PDO('mysql:host=$host;dbname=nkellerw_rugbyTeam' $user, $pw);
+
+						            		$result = mysql_query("SELECT * FROM schedule WHERE isCurrent LIKE 'yes'");
+
+						            		$num = mysql_num_rows($result);
+
+						            		$i = 0;
+
+						            		while ($i < $num) {
+						            			printf("<tr><td> %s </td><td> %s </td><td> %s </td><td> %s </td></tr>");
+						            			mysql_result($result, $i, 'date'); mysql_result($result, $i, 'opponent'); mysql_result($result, $i, 'location'); mysql_result($result, $i, 'score');
+						            			$i++;
+						            		}
+						            	?>
 									    <tr>
 									    	<td>March 15th</td>
 									    	<td>Highlanders</td>
@@ -153,6 +171,8 @@
 						            <h3 class = "title">Fall 2013 15s Schedule</h3>
 						            <div class="table-responsive">
 						            	<table class="table">
+
+						            
 										  	<tr>
 										  		<th>Date</th>
 										  		<th>Opposition</th>
