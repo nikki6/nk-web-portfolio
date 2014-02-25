@@ -15,11 +15,21 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
   <link rel="stylesheet" type="text/css" href="css/fontStyleSheet.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style2.css">
  
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+  <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery.color.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#moreLink").hover(function() {
+      $(this).animate({ color: "#00eeff" }, 400);}
+      ,function() {$(this).animate({ color: "#FFFFFF" }, 500);
+    });
+  </script>
+
 </head>
 
 <body>
@@ -39,10 +49,10 @@
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class=""><a href="index.php">Home</a></li>
-<!--             <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
- -->            <li><a href="example.php">My Works</a></li>
+            <li class=""><a href="index2.php">Home</a></li>
+            <li><a href="#example">My Works</a></li>
+            <li><a href="#skills">Skills</a></li>
+
           </ul>
         </div><!--/.nav-collapse -->
       </div>

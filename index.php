@@ -89,6 +89,7 @@
                 <li>JavaScript</li>
                 <li>PHP</li>
                 <li>Inkscape</li>
+                <li>Adobe Creative Suite</li>
                 <li>Currently Learning: Ruby on Rails</li>
               </ul>
               <ul class = "list list2 col-md-2 col-lg-2 col-sm-4 col-xs-4 col-lg-offset-1 col-md-offset-1 ">

@@ -20,8 +20,8 @@ body{
 .navbar-default .navbar-brand{
 	color:#FCEBC2;
 	font-size: 160%;
-	letter-spacing: 5px;
-}
+/*	letter-spacing: 5px;
+*/}
 
 .navbar-default .navbar-brand:hover{
 	color:#FCEBC2;

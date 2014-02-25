@@ -1,0 +1,62 @@
+body{
+	color: #000000;
+}
+
+#slide1{
+	padding: 75px 200px;
+	color: rgba(236, 240, 241,1.0);
+	border-bottom: 2px solid rgba(189, 195, 199,1.0);
+	background-image: url("../images/LookinFly.png");
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: 800px;
+	background-color: #000000;
+	min-height:900px;
+
+}
+
+#slide1 h1, #slide1 p{
+	font-size: 2em;
+	width:45%;
+	position: relative;
+	top: 200px;
+}
+
+#slide1 h1
+{
+	font-size: 3em;
+	text-align: center;
+}
+
+p a, p a:link, p a:active{
+	color:#c0392b;
+}
+
+p a:hover{
+	color: #ecf0f1;
+	text-decoration: none;
+}
+
+#slide1 #amp{
+	width: 40px;
+}
+
+#slide2, #slide3{
+	padding: 175px;
+}
+
+
+/**************************
+		Media Query
+***************************/
+@media (max-width: 1170px){
+	#slide1{
+		background-image: url("../images/LookinFlyandNarrow.png");
+		background-position: bottom right;
+		background-repeat: no-repeat;
+		background-size: 600px;
+	}
+	#slide1 h1, #slide1 p{
+		width:65%;
+	}
+}

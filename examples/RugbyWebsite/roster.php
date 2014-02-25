@@ -5,12 +5,12 @@
 		<div class = "container">
 			<div class = "info">
 				<h1 data-stellar-background-ratio = "0.5">Roster</h1>
-				<ul class="nav nav-tabs nav-justified" id="rosterTab">
+				<!-- <ul class="nav nav-tabs nav-justified" id="rosterTab">
 			        <li class="active"><a href="#section1">Forwards</a></li>
 			        <li><a href="#section2">Backs</a></li>
 			        <li><a href="#section3">Alumni</a></li>
 			        <li><a href="#section4">Coaches</a></li>
-		    	</ul>
+		    	</ul> -->
 			    <div class="tab-content">
 			        <div id="section1" class="tab-pane fade in active">
 			            <div class="table-responsive">
