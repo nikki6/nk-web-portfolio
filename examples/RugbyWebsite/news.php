@@ -7,7 +7,7 @@
 			<h1>News</h1>
 			<div class = "row">
 				<div class = "col-md-12 col-lg-12 col-sm-12 col-xs-12">
-					<p>Need to add some news.</p>
+					<h2>UNDER CONSTRUCTION</h2>
 				</div>
 			</div>
 		</div>
