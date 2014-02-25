@@ -4,7 +4,7 @@
 
 <div id = "slide1">
 	<h1>Hello!</h1> 
-	<p>I am a web developer <img src="images/amp2Light.png" alt = "and" id = 'amp'> designer. I love web and graphic design as well as full stack web
+	<p>I am a web developer <!-- <img src="images/amp2Light.png" alt = "and" id = 'amp'> -->and designer. I love web and graphic design as well as full stack web
 		development.</p>
 	<p>I have experience in coding HTML, CSS, PHP, MySQL, JavaScript, SEO and <a id = "moreLink" href="#">more...</a></p>
 	<p>On the otherhand I have experience using many graphic design programs such as the Adobe Creative Suite as well as GIMP and Inkscape.</p>
@@ -22,11 +22,9 @@
     	</p>
     </div>
 	<div class = "col-md-5 col-lg-5 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1 pull-right ">
-           
-
-        <h1 class = "page-header ">The Skills</h1>
+        <h1 class = "page-header">The Skills</h1>
         <div class = "row">
-          <ul class = "list list1 col-md-4 col-lg-4 col-sm-5 col-xs-5 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+          <ul class = "col-md-4 col-lg-4 col-sm-5 col-xs-5 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
             <li>HTML/HTML5</li>
             <li>CSS/CSS3</li>
             <li>JavaScript</li>
@@ -34,7 +32,7 @@
             <li>Inkscape</li>
             <li>Currently Learning: Ruby on Rails</li>
           </ul>
-          <ul class = "list list2 col-md-2 col-lg-2 col-sm-4 col-xs-4 col-lg-offset-1 col-md-offset-1 ">
+          <ul class = "col-md-2 col-lg-2 col-sm-4 col-xs-4 col-lg-offset-1 col-md-offset-1 ">
             <li>jQuery</li>
             <li>Bootstrap</li>
             <li>GIMP</li>

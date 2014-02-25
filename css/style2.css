@@ -3,7 +3,7 @@ body{
 }
 
 #slide1{
-	padding: 75px 200px;
+	/*padding: 75px 200px;*/
 	color: rgba(236, 240, 241,1.0);
 	border-bottom: 2px solid rgba(189, 195, 199,1.0);
 	background-image: url("../images/LookinFly.png");
@@ -16,7 +16,7 @@ body{
 }
 
 #slide1 h1, #slide1 p{
-	font-size: 2em;
+	/*font-size: 2em;*/
 	width:45%;
 	position: relative;
 	top: 200px;
@@ -24,7 +24,6 @@ body{
 
 #slide1 h1
 {
-	font-size: 3em;
 	text-align: center;
 }
 
@@ -41,22 +40,66 @@ p a:hover{
 	width: 40px;
 }
 
-#slide2, #slide3{
-	padding: 175px;
+#slide2{
+	padding: 100px;
 }
 
 
 /**************************
 		Media Query
 ***************************/
+@media (min-width: 1171px){
+	#slide1{
+		padding: 75px 200px;
+	}
+	 #slide1 p{
+		font-size: 2em;
+	}
+	#slide1 h1
+	{
+		font-size: 3em;
+		text-align: center;
+	}
+}
+
 @media (max-width: 1170px){
 	#slide1{
 		background-image: url("../images/LookinFlyandNarrow.png");
 		background-position: bottom right;
 		background-repeat: no-repeat;
 		background-size: 600px;
+		padding: 75px 100px;
 	}
 	#slide1 h1, #slide1 p{
-		width:65%;
+		width:60%;
+		font-size: 1.8em;
+	}
+	#slide1 h1
+	{
+		font-size: 2.4em;
+		text-align: center;
 	}
 }
+
+@media (max-width: 1010px){
+	#slide1{
+		padding: 75px 50px;
+	}
+
+	#slide1 h1, #slide1 p{
+		width:45%;
+		font-size: 1.7em;
+	}
+	#slide1 h1
+	{
+		font-size: 2.3em;
+		text-align: center;
+	}
+
+	p #amp{
+		display: none;
+	}
+	
+		
+}
+

@@ -100,6 +100,7 @@
                 <li>Git</li>
                 <li>SVN</li>
                 <li>MySQL</li>
+                <li>SEO</li>
               </ul>
             </div>
           </div>
