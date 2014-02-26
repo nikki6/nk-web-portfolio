@@ -20,15 +20,7 @@
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-  <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
-  <script type="text/javascript" src="js/jquery.color.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $("#moreLink").hover(function() {
-      $(this).animate({ color: "#00eeff" }, 400);}
-      ,function() {$(this).animate({ color: "#FFFFFF" }, 500);
-    });
-  </script>
+  
 
 </head>
 
@@ -38,22 +30,22 @@
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="navs">
         <div class="navbar-header">
-          <p class="navbar-brand logo" ><!-- <img class = "logo" src="images/minnowvsShark1.png"> -->Nikki Keller</p>
+          <p class="navbar-brand" >Nikki Keller</p>
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>
+          </button> 
           
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class=""><a href="index2.php">Home</a></li>
-            <li><a href="#example">My Works</a></li>
-            <li><a href="#skills">Skills</a></li>
+            <li class=""><a href="index2.php">{Home}</a></li>
+            <li><a href="#example">{My Works}</a></li>
+            <li><a href="#skills">{Skills}</a></li>
 
           </ul>
-        </div><!--/.nav-collapse -->
+        </div><!--/.nav-collapse-->
       </div>
-    </div>
+    </div> 
