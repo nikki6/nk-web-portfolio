@@ -20,6 +20,13 @@ body{
 	width:45%;
 	position: relative;
 	top: 200px;
+
+}
+
+#slide1 .content{
+	-webkit-border-image:url("images/BracketTop.png") 30 30 stretch; /* Safari 5 */
+	-o-border-image:url("images/BracketTop.png") 30 30 stretch; /* Opera */
+	border-image:url("images/BracketTop.png") 30 30 stretch;
 }
 
 #slide1 h1

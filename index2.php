@@ -3,11 +3,13 @@
 ?>
 
 <div id = "slide1">
-	<h1>Hello!</h1> 
-	<p>I am a web developer <!-- <img src="images/amp2Light.png" alt = "and" id = 'amp'> -->and designer. I love web and graphic design as well as full stack web
-		development.</p>
-	<p>I have experience in coding HTML, CSS, PHP, MySQL, JavaScript, SEO and <a id = "moreLink" href="#">more...</a></p>
-	<p>On the otherhand I have experience using many graphic design programs such as the Adobe Creative Suite as well as GIMP and Inkscape.</p>
+  <div class = "content">
+	 <h1>Hello!</h1> 
+  	<p>I am a web developer <!-- <img src="images/amp2Light.png" alt = "and" id = 'amp'> -->and designer. I love web and graphic design as well as full stack web
+  		development.</p>
+  	<p>I have experience in coding HTML, CSS, PHP, MySQL, JavaScript, SEO and <a id = "moreLink" href="#">more...</a></p>
+  	<p>On the otherhand I have experience using many graphic design programs such as the Adobe Creative Suite as well as GIMP and Inkscape.</p>
+  </div>
 </div>
 <div id = "examples slide2">
 	<h1 class = "page-header ">My Works on a Carosel</h1>
@@ -30,6 +32,7 @@
             <li>JavaScript</li>
             <li>PHP</li>
             <li>Inkscape</li>
+            <li>Adobe Creative Suite</li>
             <li>Currently Learning: Ruby on Rails</li>
           </ul>
           <ul class = "col-md-2 col-lg-2 col-sm-4 col-xs-4 col-lg-offset-1 col-md-offset-1 ">
@@ -39,6 +42,7 @@
             <li>MySQL</li>
             <li>Git</li>
             <li>SVN</li>
+            <li>SEO</li>
             <li>MySQL</li>
           </ul>
         </div>
