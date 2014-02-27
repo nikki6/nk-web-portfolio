@@ -41,9 +41,9 @@
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
-            <li class=""><a href="index2.php">{Home}</a></li>
-            <li><a href="#example">{My Works}</a></li>
-            <li><a href="#skills">{Skills}</a></li>
+            <li class=""><a href="index2.php">{ Home }</a></li>
+            <li><a href="#example">{ My Works }</a></li>
+            <li><a href="#skills">{ Skills }</a></li>
 
           </ul>
         </div><!--/.nav-collapse-->

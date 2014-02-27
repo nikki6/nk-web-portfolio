@@ -14,6 +14,33 @@ body{
 
 }
 
+@font-face {
+    font-family: 'great_vibesregular';
+    src: url('../fonts/gvAndroch/greatvibes-regular-webfont.eot');
+    src: url('../fonts/gvAndroch/greatvibes-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gvAndroch/greatvibes-regular-webfont.woff') format('woff'),
+         url('../fonts/gvAndroch/greatvibes-regular-webfont.ttf') format('truetype'),
+         url('../fonts/gvAndroch/greatvibes-regular-webfont.svg#great_vibesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rochesterregular';
+    src: url('../fonts/gvAndroch/rochester-regular-webfont.eot');
+    src: url('../fonts/gvAndroch/rochester-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gvAndroch/rochester-regular-webfont.woff') format('woff'),
+         url('../fonts/gvAndroch/rochester-regular-webfont.ttf') format('truetype'),
+         url('../fonts/gvAndroch/rochester-regular-webfont.svg#rochesterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 #slide1{
 	/*padding: 75px 200px;*/
 	width: 100%;
@@ -32,7 +59,7 @@ body{
 	/*font-size: 2em;*/
 	/*width:45%;*/
 	position: relative;
-	top: 200px;
+	top: 175px;
 	border-width: 0 20px 0 0;
 	-webkit-border-top-image:url("../images/BracketTop.png") 25% repeat; /* Safari 5 */
 	-o-border-top-image:url("../images/BracketTop.png") 25% repeat; /* Opera */
@@ -47,6 +74,11 @@ body{
 #slide1 p, #slide1 h1, #slide1 img{
 	width: 45%;
 	font-family: 'acanthus_ssiregular', serif;
+}
+
+#slide1 h1, h1{
+	font-family: 'rochesterregular', sans-serif;
+	font-size: 3.5em;
 }
 
 #slide1 p{
@@ -83,14 +115,19 @@ p a:hover{
 
 }
 
-#slide2, #slide3{
-	padding: 0px 100px 50px 100px;
+#slide3 p, #slide3 ul, #slide4 p{
+	font-family: 'acanthus_ssiregular', serif;
+	font-size: 1.7em;
+
 }
 
 #slide3{
 	background-color: #080808;
 	color: rgba(236, 240, 241,1.0);
-	font-size: 2em;
+}
+
+#slide4{
+	
 }
 
 
@@ -99,19 +136,23 @@ p a:hover{
 ***************************/
 @media (min-width: 1171px){
 	#slide1{
-		padding: 75px 200px;
+		padding: 75px 150px;
 	}
 	 #slide1 p{
 		font-size: 2em;
 	}
 	#slide1 h1
 	{
-		font-size: 3.5em;
+		font-size: 6em;
 		text-align: center;
 	}
 
-	#slide3{
+	/*#slide3{
 		font-size: 2em;
+	}*/
+
+	#slide2, #slide3, #slide4{
+		padding: 0px 100px 50px 100px;
 	}
 }
 
@@ -121,16 +162,28 @@ p a:hover{
 		background-position: bottom right;
 		background-repeat: no-repeat;
 		background-size: 600px;
-		padding: 75px 100px;
+		padding: 75px 75px;
 	}
 	#slide1 h1, #slide1 p{
 		width:60%;
 		font-size: 1.8em;
 	}
+
+	#slide1 img{
+		width: 60%;
+	}
+
 	#slide1 h1
 	{
-		font-size: 3em;
+		font-size: 4em;
 		text-align: center;
+	}
+	#slide2, #slide3, #slide4{
+		padding: 0px 100px 50px 100px;
+	}
+
+	.carousel{
+		margin-left: 15%;
 	}
 	
 }
@@ -144,9 +197,14 @@ p a:hover{
 		width:45%;
 		font-size: 1.7em;
 	}
+
+	#slide1 img{
+		width: 45%;
+	}
+
 	#slide1 h1
 	{
-		font-size: 2.3em;
+		font-size: 3.5em;
 		text-align: center;
 	}
 
@@ -164,41 +222,45 @@ p a:hover{
 	#slide1{
 		background-image: url("../images/LookinFlyandNarrowandPale.png");
 		background-color: #7a7a7a;
+		padding: 20px 20px;
 	}
 
 	#slide1 h1, #slide1 p{
 		width:100%;
 		color: #080808;
-		font-size: 2.2em;
+		font-size: 2em;
 	}
 
-	#slide3{
-		font-size: 1em;
+	#slide1 h1
+	{
+		font-size: 3.5em;
+		text-align: center;
 	}
+
+	#slide1 img{
+		width: 100%;
+	}	
+
+	/*#slide3{
+		font-size: 1.2em;
+	}*/
 
 	#slide3 ul{
 		margin-right: 25px;
 	}
+	#slide2, #slide3, #slide4{
+		padding: 0px 20px 20px 20px;
+	}
 }
 
 @media (max-width: 606px){
-	#slide1{
-		background-image: url("../images/LookinFlyandNarrowandPale.png");
-		background-color: #7a7a7a;
-	}
 
 	#slide1 h1, #slide1 p{
-		width:100%;
-		color: #080808;
-		font-size: 2.2em;
+		font-size: 1.8em;
 	}
 
 	#slide1 h1{
 		font-size: 3em;
-	}
-
-	#slide3{
-		font-size: 1em;
 	}
 
 	#slide3 ul{
@@ -207,19 +269,8 @@ p a:hover{
 }
 
 @media (max-width: 410px){
-	#slide1{
-		background-image: url("../images/LookinFlyandNarrowandPale.png");
-		background-color: #7a7a7a;
-	}
-
-	#slide1 h1, #slide1 p{
-		width:100%;
-		color: #080808;
-		font-size: 1.7em;
-	}
-
 	#slide3{
-		font-size: 1em;
+		font-size: 1.2em;
 	}
 }
 

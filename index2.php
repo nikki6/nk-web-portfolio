@@ -4,16 +4,17 @@
 
 <div id = "slide1">
   <div class = "content">
-    <img src="images/BracketTop.png">
-	 <h1>Hello!</h1> 
+    <img src="images/BracketTop.png" alt = "BracketTop">
+	  <h1>Hello!</h1> 
   	<p>I am a web developer <!-- <img src="images/amp2Light.png" alt = "and" id = 'amp'> -->and designer. I love web and graphic design as well as full stack web
   		development.</p>
   	<p>I have experience in coding HTML, CSS, PHP, MySQL, JavaScript, SEO and <a id = "moreLink" href="#slide3">more...</a></p>
   	<p>On the otherhand I have experience using many graphic design programs such as the Adobe Creative Suite as well as GIMP and Inkscape.</p>
+    <img src="images/BracketBottom.png" alt = "BracketBottom">
   </div>
 </div>
 <div id = "slide2">
-	<h1 class = "page-header">My Works</h1>
+	<h1 class = "page-header">{ My Works }</h1>
   <div id="myWorks" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -70,14 +71,18 @@
 <div id = "slide3">
 	<div class = "row">
 	<div class = "col-md-6 col-lg-6 col-sm-12 col-xs-12 pull-left">
-        <h1 class = "page-header">The Basics</h1>
+        <h1 class = "page-header">{ The Basics }</h1>
         <p class = "para">
-          I've been programming for the last 5 years with various different languages but I'm passoinate about creating websites. I really enjoy creating something that a user will be able to interact with over thier various media devices with ease. Currently I am on the east coast but I am relocating to San Diego as soon as I find a job. 
-          I have experience in creating both informational sites and e-commerce sites. 
+          I've been programming for the last 5 years with various different languages
+           but I'm passoinate about creating websites. I really enjoy creating something 
+           that a user will be able to interact with over their various media devices with 
+           ease. Currently I am on the east coast but I am relocating to San Diego as soon 
+           as I find a job. I have experience in creating both informational sites and e-commerce 
+           sites. 
     	</p>
     </div>
 	<div class = "col-md-5 col-lg-5 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-1 pull-right ">
-        <h1 class = "page-header">The Skills</h1>
+        <h1 class = "page-header">{ The Skills }</h1>
         <div class = "row list">
           <ul class = "col-md-4 col-lg-4 col-sm-5 col-xs-5 col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
             <li>HTML/HTML5</li>
@@ -101,6 +106,9 @@
         </div>
       </div>
 	</div>
+</div>
+<div id = "slide4">
+  <h1>Contact Me</h1>
 </div>
 
     <!-- Bootstrap core JavaScript
