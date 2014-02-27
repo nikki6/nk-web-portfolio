@@ -108,7 +108,7 @@
 	</div>
 </div>
 <div id = "slide4">
-  <h1>Contact Me</h1>
+  <h1>{ Contact Me }</h1>
 </div>
 
     <!-- Bootstrap core JavaScript
