@@ -26,9 +26,6 @@ body{
 
 }
 
-
-
-
 @font-face {
     font-family: 'rochesterregular';
     src: url('../fonts/gvAndroch/rochester-regular-webfont.eot');
@@ -41,6 +38,80 @@ body{
 
 }
 
+/****************************************
+    Beginning of NavBar Customization
+*****************************************/
+.navbar-inverse {
+	background-color: #c0392b;
+	border-color: #080808;
+	font-family: 'rochesterregular', sans-serif;
+	letter-spacing: 5px;
+}
+.navbar-inverse .navbar-brand {
+	color: #fff;
+	font-size: 1.5em;
+}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+	color: #080808;
+}
+.navbar-inverse .navbar-text {
+	color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a {
+	font-size: 2.5em;
+	color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+	color: #e74c3c;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	color: #080808;
+	background-color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+	color: #e74c3c;
+	background-color: #ffffff;
+}
+.navbar-inverse .navbar-toggle {
+	border-color: #080808;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color: #c0392b;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+	border-color: #c0392b;
+}
+.navbar-inverse .navbar-link {
+	color: #fff;
+}
+.navbar-inverse .navbar-link:hover {
+	color: #e74c3c;
+}
+
+@media (max-width: 767px) {
+	.navbar-inverse .navbar-nav .open .dropdown-menu {
+		text-align: center;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+		color: #fff;
+		text-align: center;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #080808;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #080808;
+		background-color: #ffffff;
+	}
+}
+/****************************************
+     End of Nav Bar Customization
+ ****************************************/
+
 #slide1{
 	/*padding: 75px 200px;*/
 	width: 100%;
@@ -50,7 +121,7 @@ body{
 	background-position: bottom right;
 	background-repeat: no-repeat;
 	background-size: 800px;
-	background-color: #000000;
+	background-color: #080808;
 	min-height: 900px;
 
 }
@@ -81,8 +152,13 @@ body{
 	font-size: 3.5em;
 }
 
-#slide1 p{
+.content{
 	text-align: justify;
+}
+
+#slide3 .content{
+	line-height: 40px;
+	letter-spacing: 2px;
 }
 
 p a, p a:link, p a:active{
@@ -95,7 +171,7 @@ p a:hover{
 }
 
 .carousel{
-	margin-left: 30%;
+	margin-left: 20%;
 	max-width: 719px;
 	float: center;
 }
@@ -115,6 +191,10 @@ p a:hover{
 
 }
 
+#slide2 .imgEnds{
+	width:100%;
+}
+
 #slide3 p, #slide3 ul, #slide4 p{
 	font-family: 'acanthus_ssiregular', serif;
 	font-size: 1.7em;
@@ -126,8 +206,12 @@ p a:hover{
 	color: rgba(236, 240, 241,1.0);
 }
 
+#slide3 .first{
+	padding-left: 85px;
+}
+
 #slide4{
-	
+
 }
 
 
@@ -147,14 +231,28 @@ p a:hover{
 		text-align: center;
 	}
 
+	#slide2 .imgEnds{
+		width:17%;
+	}
+
+
 	/*#slide3{
 		font-size: 2em;
+	}*/
+
+	/*.carousel{
+		margin-right: 15%;
 	}*/
 
 	#slide2, #slide3, #slide4{
 		padding: 0px 100px 50px 100px;
 	}
 }
+/*@media (min-width: 980px){
+	#slide3 .first{
+		padding-left: 85px;
+	}
+}*/
 
 @media (max-width: 1170px){
 	#slide1{
@@ -208,9 +306,6 @@ p a:hover{
 		text-align: center;
 	}
 
-	.carousel{
-		margin-left: 5%;
-	}
 
 	.carousel-caption{
 		display: none;
@@ -218,7 +313,13 @@ p a:hover{
 		
 }
 
-@media (max-width: 746px){
+@media(max-width: 818px){
+	.navbar-inverse .navbar-nav > li > a {
+		font-size: 2em;
+	}
+}
+
+@media (max-width: 769px){
 	#slide1{
 		background-image: url("../images/LookinFlyandNarrowandPale.png");
 		background-color: #7a7a7a;
@@ -270,7 +371,10 @@ p a:hover{
 
 @media (max-width: 410px){
 	#slide3{
-		font-size: 1.2em;
+		font-size: 1em;
+	}
+	#slide3 .first{
+		padding-left: 50px;
 	}
 }
 

@@ -5,15 +5,12 @@ body{
   	padding-top: 5em;
   	background: #080808;
 }
+
 .navbar-default{
 	background: #832020;
 	border-bottom: #080808;
 	padding-top: 5px;
-	font-family: 'bornregular', serif;
-
-}
-
-.navbar-default{
+	font-family: 'bornregular', serif;	
 	color:#FCEBC2;
 }
 

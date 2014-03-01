@@ -15,62 +15,77 @@
 </div>
 <div id = "slide2">
 	<h1 class = "page-header">{ My Works }</h1>
-  <div id="myWorks" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myWorks" data-slide-to="0" class="active"></li>
-      <li data-target="#myWorks" data-slide-to="1"></li>
-      <li data-target="#myWorks" data-slide-to="2"></li>
-      <li data-target="#myWorks" data-slide-to="3"></li>
-      <li data-target="#myWorks" data-slide-to="4"></li>
-    </ol>
+  <div class = "row">
+    
+    <div class = "col-md-2 col-lg-2 col-sm-1 col-xs-1">
+      <img class = "imgEnds left" src="images/bracketLeft.png" alt= 'pretty'>
+    </div>
+    
+    <div class = "col-md-8 col-lg-8 col-sm-10 col-xs-10">
+      <div id="myWorks" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myWorks" data-slide-to="0" class="active"></li>
+          <li data-target="#myWorks" data-slide-to="1"></li>
+          <li data-target="#myWorks" data-slide-to="2"></li>
+          <li data-target="#myWorks" data-slide-to="3"></li>
+          <li data-target="#myWorks" data-slide-to="4"></li>
+        </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="images/onePage.png" alt="Pageless">
-        <div class="carousel-caption">
-          <h2 class = "light">Example of a Pageless site</h3>
-        </div>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/onePage.png" alt="Pageless">
+            <div class="carousel-caption">
+              <h2 class = "light">Example of a Pageless site</h3>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/blogPage.png" alt="Blog Page">
+            <div class="carousel-caption">
+              <h2 class = "dark">Blog Page</h3>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/fwrfcPage.png" alt="FWRFC Old">
+            <div class="carousel-caption">
+              <h2 class = "light">Old FWRFC Website</h3>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/FWRFCNewDesign1.png" alt="FWRFC New">
+            <div class="carousel-caption">
+              <h2 class = "dark">FWRFC Website Redesign</h3>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/exoticReef.png" alt="Exotic Reef">
+            <div class="carousel-caption">
+              <h2 class = "light">Exotic Reef</h3>
+            </div>
+          </div>
       </div>
-      <div class="item">
-        <img src="images/blogPage.png" alt="Blog Page">
-        <div class="carousel-caption">
-          <h2 class = "dark">Blog Page</h3>
-        </div>
-      </div>
-      <div class="item">
-        <img src="images/fwrfcPage.png" alt="FWRFC Old">
-        <div class="carousel-caption">
-          <h2 class = "light">Old FWRFC Website</h3>
-        </div>
-      </div>
-      <div class="item">
-        <img src="images/FWRFCNewDesign1.png" alt="FWRFC New">
-        <div class="carousel-caption">
-          <h2 class = "dark">FWRFC Website Redesign</h3>
-        </div>
-      </div>
-      <div class="item">
-        <img src="images/exoticReef.png" alt="Exotic Reef">
-        <div class="carousel-caption">
-          <h2 class = "light">Exotic Reef</h3>
-        </div>
+
+       <!-- Controls -->
+        <a class="left carousel-control" href="#myWorks" data-slide="prev">
+         <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#myWorks" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
       </div>
     </div>
+    
+    <div class = "col-md-2 col-lg-2 col-sm-1 col-xs-1">
+      <img class = "imgEnds right" src="images/bracketRight.png" alt= 'pretty'/>
+    </div>
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#myWorks" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#myWorks" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
+  </div>
 </div>
-</div>
+
 <div id = "slide3">
 	<div class = "row">
-	<div class = "col-md-6 col-lg-6 col-sm-12 col-xs-12 pull-left">
+	<div class = "content col-md-6 col-lg-6 col-sm-12 col-xs-12 pull-left">
         <h1 class = "page-header">{ The Basics }</h1>
         <p class = "para">
           I've been programming for the last 5 years with various different languages
@@ -93,7 +108,7 @@
             <li>Adobe Creative Suite</li>
             <li>Currently Learning: Ruby on Rails</li>
           </ul>
-          <ul class = "col-md-2 col-lg-2 col-sm-4 col-xs-4 col-lg-offset-1 col-md-offset-1 ">
+          <ul class = "first col-md-2 col-lg-2 col-sm-4 col-xs-4 col-lg-offset-1 col-md-offset-1 ">
             <li>jQuery</li>
             <li>Bootstrap</li>
             <li>GIMP</li>
@@ -109,6 +124,13 @@
 </div>
 <div id = "slide4">
   <h1>{ Contact Me }</h1>
+    <p class = "para">
+      If you would like to hire me  or need more information send me a message and I will get back to you as soon as possible!
+    </p>
+    <div class = "email">
+      <a href="mailto:dkn5678@gmail.com">Send your email here!</a>
+
+    </div>
 </div>
 
     <!-- Bootstrap core JavaScript

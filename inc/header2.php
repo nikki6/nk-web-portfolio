@@ -27,7 +27,7 @@
 <body>
 
     <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="navs">
         <div class="navbar-header">
           <p class="navbar-brand" >Nikki Keller</p>
