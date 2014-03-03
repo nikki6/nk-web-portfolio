@@ -23,6 +23,7 @@
 </head>
 
 <body>
+  <?php include("inc/analyticstracking.php") ?>
 
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">

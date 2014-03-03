@@ -124,13 +124,21 @@
 </div>
 <div id = "slide4">
   <h1>{ Contact Me }</h1>
+  <div class = "row">
+    <div class = "col-md-6 col-lg-6 col-sm-12 col-xs-12"
     <p class = "para">
       If you would like to hire me  or need more information send me a message and I will get back to you as soon as possible!
     </p>
     <div class = "email">
-      <a href="mailto:dkn5678@gmail.com">Send your email here!</a>
-
+      <a href="mailto:dkn5678@gmail.com"><?php include('images/myWhale.svg');?></a>
     </div>
+  </div>
+    <div class = "col-md-6 col-lg-6 col-sm-12 col-xs-12" id = "twitter">
+      <?php
+        include('inc/twitter.php');
+      ?>
+    </div>
+  </div>
 </div>
 
     <!-- Bootstrap core JavaScript
