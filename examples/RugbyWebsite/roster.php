@@ -26,7 +26,7 @@
 		              $mysqli = mysqli_connect(HOST, USER, PASSWORD, DATABASE);
 		              // Handles if the connection fails
 		              if ($mysqli->connect_errno) {
-		                  echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+		                  //echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 		              }
 		              // This is the query
 		              $result = mysqli_query($mysqli, "SELECT * FROM roster");
@@ -44,34 +44,7 @@
 			</div>
 		</div>
 	</div>
-		 <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>	
-
-    <script type="text/javascript">
-    $(window).stellar();
-    </script>
-
-    <script type="text/javascript">
-    	$('#scheduleTab a').click(function (e) {
-		  e.preventDefault();
-		  $(this).tab('show');
-		});
-
-    	$('#rosterTab a').click(function (e) {
-		  e.preventDefault();
-		  $(this).tab('show');
-		});
-    </script>
-    <script type="text/javascript">
-  //   	$('#rosterTab a').click(function (e) {
-		//   e.preventDefault();
-		//   $(this).tab('show');
-		// });
-
-    </script>
-</body>
-
-</html>
+	
+<?php
+	include('inc/footer.php');
+?>
