@@ -117,6 +117,10 @@ a:hover, a:active{
 .table-bordered th{
 	text-align: center;
 }
+
+.important{
+	font-weight: 700;
+}
 /******************************
  SLIDE 1 
 *******************************/

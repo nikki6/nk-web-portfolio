@@ -5,7 +5,7 @@
 <!-- Slide #1 -->
 		<div class = "slide" id = "slide1" data-slide = "1" data-stellar-background-ratio = "0.5">
 			<div class = "info">
-				<h1 class = "banner1">Welcome to the Frederick Women's Rugby Football Club</h1>
+				<h1 class = "banner1">Welcome to the Frederick Women&#39;s Rugby Football Club</h1>
 				
 				
 			</div>
@@ -18,32 +18,31 @@
 					<div class = "gen col-md-7 col-lg-7 col-sm-12 col-xs-12">
 						<div class = "row">
 							<p>
-								Thanks for checking out the Frederick Women's Rugby webpage.
+								Thanks for checking out the Frederick Women&#39;s Rugby webpage.
 								 The FWRFC was formed in Fall 2004 by a team of fun, enthusiastic women. 
-								 We play almost year-round, with a competitive 15-a-side season in the fall, 
-								 a "friendly" 15s season in the spring, a competitive summer 7s season AND 
-								 trainings to span the winter months. Plus we have social events, trips and 
-								 community projects throughout the year.
+								 We play almost year&#8211;round, with a competitive 15&#39;s season in the spring and fall, 
+								 a competitive summer 7&#39;s season and some fitness training during the winter months. 
+								 Plus we have social events, retreats and community projects throughout the year.
 							</p>
 							<p>
-								It's always a great time for new players to join us! 
-								All experience levels are welcome; no previous knowledge of the 
-								sport is necessary! Check out the <a href="about.html"><b>About Rugby</b></a>
-								 page for a brief introduction to the sport. 
+								It&#39;s always a great time for new players to join us! 
+								All experience levels are welcome and no previous knowledge of the 
+								sport is necessary! Check out the <a href="#slide4"><b>About Rugby</b></a>
+								section for a brief introduction to the sport. 
 							</p>
 						</div>
 						<div class = "row">
 							<h2>Practice Information</h2>
 							<ul>
-								<li>Practices will start in late February early March</li>
+								<li>Practices have started!!!</li>
 							</ul>
 						</div>
 						<div class = "row">
 							<h2>Upcoming Events</h2>
 							<ul>
-								<li>January 25th - Winter Banquet</li>
-								<li>February 6th - Preseason Meeting</li>
+								<li>March 22nd &#8211; Away Game vs Nova</li>
 							</ul>
+							<!-- Add a link to the schedule here -->
 						</div>
 					</div>
 					<div class = "col-md-5 col-lg-5 col-sm-12 col-xs-12">
@@ -86,9 +85,17 @@
 						    <img class="media-object img-responsive" src="images/usarugby1.png" alt="usarugby">
 						  </a>
 						  <div class="media-body">
-						    <h2>Get CIPPed</h2>
+						    <h2>Get Registered</h2>
+						    <ol>
+						    	<li>Click on the icon to the left</li>
+						    	<li>Click "Myself"</li>
+						    	<li>Register as a "Senior Player"</li>
+						    </ol>
+						    <p>The cost to be registered is: &#36;60.00. This will give you a secondary insurance and will get you registered as a USA rugby player.</p>
+						    <p class = "important">&#42;You must have this to play.&#42;</p>
 						    <p>Forward information to the <a href="mailto:fwrfc.execsec@yahoo.com">Executive Secretary</a> after you have registered. Also if 
 						    	you need help you can contact the Executive Secretary and she will walk you through it.</p>
+
 						  </div>
 						</div>
 					</div>
@@ -104,12 +111,14 @@
 		</div>
 	<!-- Slide #4 -->
 		<div class = "slide" id = "slide4" data-slide = "4" data-stellar-background-ratio = ".5">
-			<div class = "row">
-				<div class = "info">
-					<div class = "video col-md-12 col-lg-12 col-sm-12 col-xs-12">
-						<h1>Rugby 101</h1>
-						<p>Check out this awesome video that Washington State Women's Rugby Team made explain the basics on rugby.</p>
-						<iframe class = "video" width="50%" height="auto" src="//www.youtube.com/embed/YVtD0_y2hr0" frameborder="1" allowfullscreen></iframe>
+			<div class = "container">
+				<div class = "row">
+					<div class = "info">
+						<div class = "video col-md-12 col-lg-12 col-sm-12 col-xs-12">
+							<h1>Rugby 101</h1>
+							<p>Check out this awesome video that the Washington State Women&#39;s Rugby Team made to explain the basics of rugby.</p>
+							<iframe class = "video" width="50%" height="auto" src="//www.youtube.com/embed/YVtD0_y2hr0" frameborder="1" allowfullscreen></iframe>
+						</div>
 					</div>
 				</div>
 			</div>
