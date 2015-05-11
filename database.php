@@ -1,3 +1,16 @@
+<table class="table table-striped row-highlight table-condensed">
+    <thead>
+        <tr>
+            <th class="shortcut-base"><a>Base Key</a></th>
+            <th class="shortcut-binding"><a>Key Binding</a></th>
+            <th class="shortcut-cmd-id"><a>Command ID</a></th>
+            <th class="shortcut-cmd-name"><a>Command Name</a></th>
+            <th class="shortcut-orig"><a>Origin</a></th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
 <?php 
 	
 	//$db = new PDO("mysql:host=nkellerwebdesign.com;dbname=nkellerw_rugbyTeam","nkellerw_sql","billabong69");
