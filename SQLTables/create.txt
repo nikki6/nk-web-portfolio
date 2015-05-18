@@ -1,0 +1,52 @@
+CREATE DATABASE IF NOT EXISTS fwrfc;
+
+CREATE TABLE IF NOT EXISTS roster{
+player_id INT NOT NULL UNIQUE,
+firstName VARCHAR(20) NOT NULL,
+lastName VARCHAR(20) NOT NULL,
+nickName VARCHAR(50),
+position VARCHAR(100) NOT NULL,
+execBoard VARCHAR(255),
+isCurrentPlayer BOOLEAN NOT NULL,
+PRIMARY KEY(player_id),
+UNIQUE KEY(player_id)};
+
+CREATE TABLE IF NOT EXISTS schedule{
+game_id INT NOT NULL,
+date DATE NOT NULL,
+location VARCHAR(255) NOT NULL,
+opponent VARCHAR(100) NOT NULL,
+score VARCHAR(10),
+matrix BOOLEAN NOT NULL,
+PRIMARY KEY(game_id),
+UNIQUE KEY(game_id),
+FOREIGN KEY(player_id)};
+
+CREATE TABLE IF NOT EXISTS practice_info{
+season VARCHAR(10) NOT NULL,
+info VARCHAR(500) NOT NULL};
+
+CREATE TABLE IF NOT EXISTS current_events{
+date DATE NOT NULL, 
+event VARCHAR(300),
+location varchar(255)};
+
+CREATE TABLE IF NOT EXISTS pic_album{
+pic_id INT NOT NULL UNIQUE,
+timestamp TIMESTAMP NOT NULL,
+picture BLOB UNIQUE NOT NULL,
+tags VARCHAR(500),
+PRIMARY KEY(pic_id),
+UNIQUE KEY(pic_id),
+FOREIGN KEY(player_id,game_id)
+};
+
+CREATE TABLE IF NOT EXISTS vid_album{
+vid_id INT NOT NULL UNIQUE,
+timestamp TIMESTAMP NOT NULL,
+video BLOB UNIQUE NOT NULL,
+tags VARCHAR(500),
+PRIMARY KEY(vid_id),
+FOREIGN KEY(player_id, game_id),
+UNIQUE KEY(vid_id),
+};
