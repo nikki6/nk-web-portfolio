@@ -78,8 +78,9 @@
             <div class="discover clearfix">
                 <div class="wrap">
                     <div class="discover-content clearfix">
-                        <h2>Discover</h2>
-                        <p>Human rights momentum. World problem solving turmoil, change movements environmental pursue these aspirations initiative donation. Policy dialogue, underprivileged accessibility, asylum visionary, prevention beneficiaries carbon emissions reductions empower.</p>
+                        <h2>What we are about.</h2>
+                        <p>The FWRFC was formed in Fall 2004 by a team of fun, enthusiastic women. We play almost year–round, with a competitive 15's season in the spring and fall, a competitive summer 7's season and some fitness training during the winter months. Plus we have social events, retreats and community projects throughout the year.
+It's always a great time for new players to join us! All experience levels are welcome and no previous knowledge of the sport is necessary! Check out the About Rugby section for a brief introduction to the sport.</p>
                         <div class="discover-button clearfix">
                             <a href="#" class="button button-download">
                                 <span class="button-download-title">Download for</span>
@@ -92,7 +93,7 @@
                         </div>
                     </div>
                     <div class="discover-img">
-                        <div class="discover-img-inside"><img src="upload/discover.png" height="486" width="634" alt=""></div>
+                        <div class="discover-img-inside"><img src="images/team.png" height="300" width="396" alt=""></div>
                     </div>
                 </div>
                 <!-- /.wrap -->
